@@ -67,3 +67,12 @@ h2 {
 .active {
     border-bottom: 1px solid #4e4e4e;
 }
+
+/* hero image */
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    background: url('../images/hero-image.jpg') no-repeat center center;
+}
