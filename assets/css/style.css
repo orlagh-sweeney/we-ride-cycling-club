@@ -8,4 +8,29 @@
 
 body {
     font-family: Montserrat, sans-serif; 
+    font-weight: 300;
+    color: #4e4e4e
+}
+
+/* headings and logo */
+
+h1 {
+    font-family: Barlow Condensed, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #4e4e4e; 
+}
+
+h2 {
+    font-family: Barlow Condensed, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #4e4e4e; 
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+    letter-spacing: 4px;
+    font-style: italic;
 }
