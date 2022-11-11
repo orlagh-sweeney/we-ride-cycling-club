@@ -34,3 +34,35 @@ h2 {
     letter-spacing: 4px;
     font-style: italic;
 }
+
+/* navigation links */
+
+#menu {
+    font-family: Barlow Condensed, sans-serif;
+    font-weight: 400;
+    font-size: 150%;
+    text-transform: uppercase;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+#menu a:hover {
+    color: #00B1B8;  
+}
+
+.active {
+    border-bottom: 1px solid #4e4e4e;
+}
