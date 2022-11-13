@@ -70,6 +70,15 @@ h2 {
 
 /* hero image */
 
+/*
+This code was causing then navigation bar not to work so it has been removed. 
+
+#hero-container {
+    position: relative;
+    text-align: center;
+}
+*/
+
 #cover-text h1 {
     color: #fafafa;
 }
@@ -96,6 +105,10 @@ h2 {
 
 /* introduction */
 
+#intro {
+    height: 600px;
+}
+
 #introduction {
     text-align: center;
     padding: 1% 16.5%;
@@ -103,4 +116,24 @@ h2 {
 
 #introduction > p {
     padding-top: 1%;
+}
+
+#left-about {
+    padding-top: 5px;
+    width: 33%;
+    float: left;
+    background-color: blue;
+}
+
+#right-about {
+    padding-top: 5px;
+    width: 33%;
+    float: right;
+    background-color: green;
+}
+
+#center-about {
+    padding-top: 5px;
+    margin: 0 auto;
+    background-color: red;
 }
