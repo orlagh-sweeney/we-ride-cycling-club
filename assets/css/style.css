@@ -99,3 +99,13 @@ h2 {
     transform: translate(-50%, -50%);
 }
 
+/* introduction */
+
+#introduction {
+    text-align: center;
+    padding: 1% 16.5%;
+}
+
+#introduction > p {
+    padding-top: 1%;
+}
