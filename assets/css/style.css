@@ -196,3 +196,32 @@ i {
 div > h2 {
     padding-bottom: 10px;
 }
+
+/* Join Us CTA */
+
+#join-us {
+    height: 75px;
+}
+
+#cta a {
+    text-decoration: none;
+    color: #4e4e4e;
+}
+
+#cta {
+    width: 100px;
+    padding: 5px;
+    margin: 0 auto;
+    text-align: center;
+
+    background-color: #00B1B8;
+    font-family: Barlow Condensed, sans-serif;
+    text-transform: uppercase;
+    font-size: 125%;
+    border-radius: 10px;
+}
+
+#cta a:hover {
+    color: #fafafa;
+}
+
