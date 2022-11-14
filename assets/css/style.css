@@ -186,3 +186,13 @@ This code was causing then navigation bar not to work so it has been removed.
     text-align: center;
 }
 
+i {
+   padding-top: 20px;
+   padding-bottom: 20px;
+   font-size: 300%;
+   color: #00B1B8;
+}
+
+div > h2 {
+    padding-bottom: 10px;
+}
