@@ -119,21 +119,33 @@ This code was causing then navigation bar not to work so it has been removed.
 }
 
 #left-about {
+    background: url('../images/image-left.jpg') no-repeat center center;
+    background-size: cover;
+    margin-left: 300px;
     padding-top: 5px;
-    width: 33%;
+    height: 75%;
+    width: 22%;
     float: left;
-    background-color: blue;
+    background-color: #fafafa;
 }
 
 #right-about {
+    background: url('../images/image-right.jpg') no-repeat center center;
+    background-size: cover;
+    margin-right: 300px;
     padding-top: 5px;
-    width: 33%;
+    height: 75%;
+    width: 22%;
     float: right;
-    background-color: green;
+    background-color: #fafafa;
 }
 
 #center-about {
+    background: url('../images/image-center.jpg') no-repeat center center; 
+    background-size: cover;
     padding-top: 5px;
+    height: 75%;
+    width: 22%; 
     margin: 0 auto;
-    background-color: red;
+    background-color: #fafafa;
 }
