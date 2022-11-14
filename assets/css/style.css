@@ -149,3 +149,40 @@ This code was causing then navigation bar not to work so it has been removed.
     margin: 0 auto;
     background-color: #fafafa;
 }
+
+/* How it works */
+
+#how-it-works {
+    height: 300px;
+}
+
+#how-it-works > h1 {
+    text-align: center;
+}
+
+#left-work {
+    margin-left: 300px;
+    padding-top: 10px;
+    height: 75%;
+    width: 22%;
+    float: left;
+    text-align: center;
+}
+
+#right-work {
+    margin-right: 300px;
+    padding-top: 10px;
+    height: 75%;
+    width: 22%;
+    float: right;
+    text-align: center;
+}
+
+#center-work {
+    padding-top: 10px;
+    height: 75%;
+    width: 22%; 
+    margin: 0 auto;
+    text-align: center;
+}
+
