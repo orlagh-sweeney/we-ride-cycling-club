@@ -245,3 +245,41 @@ footer {
     font-size: 160%;
     margin: 3%;
 }
+
+/* About Us */
+
+.about {
+    height: 600px; 
+    width: 100%;
+    overflow: hidden;
+    background: #4e4e4e;
+    position: relative;
+}
+
+.about h1 {
+    color: #fafafa;
+    font-size: 200%;
+    font-family: Barlow Condensed, sans-serif;
+    text-transform: uppercase;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#story {
+    background: url('../images/about-story.jpg') no-repeat center center;
+    background-color: #4e4e4e;
+}
+
+#people {
+    background: url(../images/about-people.jpg) no-repeat center center;
+    background-color: #4e4e4e;
+}
+
+#values {
+    background: url('../images/about-values.jpg') no-repeat center center;
+    background-color: #4e4e4e;
+}
+
