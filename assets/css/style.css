@@ -242,8 +242,12 @@ footer {
 
 .social-links i {
     color: #fafafa;
-    font-size: 160%;
+    font-size: 200%;
     margin: 3%;
+}
+
+.social-links i:hover {
+    color: #4e4e4e;
 }
 
 /* About Us */
