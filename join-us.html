@@ -33,8 +33,79 @@
         </nav>
     </header>
     <section>
-        <form action="">
-            
+        <form action="https://formdump.codeinstitute.net/" method="POST">
+            <h2>It's time to Ride</h2>
+            <p>Sign up instructions</p>
+            <div>
+                <label for="fname">First Name</label>
+                <input type="text" name="first_name" id="fname" required>
+                <label for="lname">Last Name</label>
+                <input type="text" name="last_name" id="lname" required>
+                
+            </div>
+            <div>
+                <label for="email">Email Address</label>
+                <input type="email" name="email_address" id="email" required>
+                <label for="mobile">Mobile Number</label>
+                <input type="text" name="mobile_number" id="mobile">
+            </div>
+            <div>
+                <label for="country">Country</label>
+                <select name="country" id="country" required>
+                    <option value="austria">Austria</option>
+                    <option value="belgium">Belgium</option>
+                    <option value="bulgaria">Bulgaria</option>
+                    <option value="croatia">Croatia</option>
+                    <option value="cyprus">Cyprus</option>
+                    <option value="czech-republic">Czech Republic</option>
+                    <option value="denmark">Denmark</option>
+                    <option value="estonia">Estonia</option>
+                    <option value="finland">Finland</option>
+                    <option value="france">France</option>
+                    <option value="germany">Germany</option>
+                    <option value="greece">Greece</option>
+                    <option value="hungary">Hungary</option>
+                    <option value="ireland">Ireland</option>
+                    <option value="italy">Italy</option>
+                    <option value="latvia">Latvia</option>
+                    <option value="lithunaia">Lithuania</option>
+                    <option value="luxembourg">Luxembourg</option>
+                    <option value="malta">Malta</option>
+                    <option value="netherlands">Netherlands</option>
+                    <option value="poland">Poland</option>
+                    <option value="portugal">Portugal</option>
+                    <option value="romania">Romania</option>
+                    <option value="slovakia">Slovaki</option>
+                    <option value="slovenia">Slovenia</option>
+                    <option value="spain">Spain</option>
+                    <option value="sweden">Sweden</option>
+                </select>
+                <label for="city">City</label>
+                <input type="text" name="city" id="city" required>
+            </div>
+            <div>
+                <p>Cycling Level</p>
+
+                <label for="beginner">Beginner</label>
+                <input type="radio" name="cycling_level" id="beginner" value="beginner" required>
+                <label for="intermediate">Intermediate</label>
+                <input type="radio" name="cycling_level" id="intermediate" value="intermediate">
+                <label for="advanced">Advanced</label>
+                <input type="radio" name="cycling_level" id="advanced" value="advanced">
+
+                <p>Preferred Distance</p>
+
+                <label for="50-60">50-60km</label>
+                <input type="radio" name="distance" id="50-60" value="50-60" required>
+                <label for="60-80">60-80km</label>
+                <input type="radio" name="distance" id="60-80" value="60-80">
+                <label for="advanced">80-100km</label>
+                <input type="radio" name="distance" id="80-100" value="80-100">
+            </div>
+            <div>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset Form">
+            </div>
         </form>
     </section>
     <section id="join-us">
