@@ -156,8 +156,12 @@ This code was causing then navigation bar not to work so it has been removed.
     height: 300px;
 }
 
-#how-it-works > h1 {
+#how-it-works > h2 {
     text-align: center;
+}
+
+#how-it-works > h3 {
+    font-family: Montserrat, sans-serif;
 }
 
 #left-work {
@@ -193,7 +197,7 @@ This code was causing then navigation bar not to work so it has been removed.
    color: #00B1B8;
 }
 
-div > h2 {
+div > h3 {
     padding-bottom: 10px;
 }
 
@@ -201,6 +205,10 @@ div > h2 {
 
 #join-us {
     height: 75px;
+}
+
+#join-us > h2 {
+    display: none;
 }
 
 #cta a {
