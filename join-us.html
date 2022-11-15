@@ -33,25 +33,30 @@
         </nav>
     </header>
     <section class="form-section">
-        <form action="https://formdump.codeinstitute.net/" method="POST">
+        <form class="join-us-form" action="https://formdump.codeinstitute.net/" method="POST">
             <h2>It's time to Ride</h2>
             <p>Sign up instructions</p>
-            <div>
+            <div class="name">
                 <label for="fname">First Name</label>
-                <input type="text" name="first_name" id="fname" required>
+                <input class="text-input" type="text" name="first_name" id="fname" required>
+            </div>
+            <div class="name">
                 <label for="lname">Last Name</label>
-                <input type="text" name="last_name" id="lname" required>
-                
+                <input class="text-input" type="text" name="last_name" id="lname" required>
             </div>
-            <div>
+            
+            <div class="contact">
                 <label for="email">Email Address</label>
-                <input type="email" name="email_address" id="email" required>
-                <label for="mobile">Mobile Number</label>
-                <input type="text" name="mobile_number" id="mobile">
+                <input class="text-input" type="email" name="email_address" id="email" required>
             </div>
-            <div>
+            <div class="contact">
+                <label for="mobile">Mobile Number</label>
+                <input class="text-input" type="text" name="mobile_number" id="mobile">
+            </div>
+            
+            <div class="location">
                 <label for="country">Country</label>
-                <select name="country" id="country" required>
+                <select class="text-input" name="country" id="country" required>
                     <option value="austria">Austria</option>
                     <option value="belgium">Belgium</option>
                     <option value="bulgaria">Bulgaria</option>
@@ -80,31 +85,38 @@
                     <option value="spain">Spain</option>
                     <option value="sweden">Sweden</option>
                 </select>
-                <label for="city">City</label>
-                <input type="text" name="city" id="city" required>
             </div>
-            <div>
+            <div class="location">
+                <label for="city">City</label>
+                <input class="text-input" type="text" name="city" id="city" required>
+            </div>
+            
+            <div class="experience">
                 <p>Cycling Level</p>
-
                 <label for="beginner">Beginner</label>
                 <input type="radio" name="cycling_level" id="beginner" value="beginner" required>
+                <br>
                 <label for="intermediate">Intermediate</label>
                 <input type="radio" name="cycling_level" id="intermediate" value="intermediate">
+                <br>
                 <label for="advanced">Advanced</label>
                 <input type="radio" name="cycling_level" id="advanced" value="advanced">
-
+            </div>
+            <div class="experience">
                 <p>Preferred Distance</p>
-
                 <label for="50-60">50-60km</label>
                 <input type="radio" name="distance" id="50-60" value="50-60" required>
+                <br>
                 <label for="60-80">60-80km</label>
                 <input type="radio" name="distance" id="60-80" value="60-80">
+                <br>
                 <label for="advanced">80-100km</label>
                 <input type="radio" name="distance" id="80-100" value="80-100">
             </div>
+            
             <div>
-                <input type="submit" value="Submit">
-                <input type="reset" value="Reset Form">
+                <input class="join-button" type="submit" value="Submit">
+                <input class="join-button" type="reset" value="Reset Form">
             </div>
         </form>
     </section>

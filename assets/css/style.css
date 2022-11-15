@@ -328,3 +328,95 @@ footer {
     overflow: hidden;
 }
 
+.join-us-form {
+    max-width: 600px;
+    position: absolute;
+    padding: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color: #fafafa;
+    background-color: rgba(0,128,133,.7);
+}
+
+.join-us-form > h2 {
+    color: #fafafa;
+    font-size: 200%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.join-us-form > p {
+    color: #fafafa;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.join-us-form > div {
+    padding-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    border: solid 1px #fafafa;
+    font-family: Montserrat, sans-serif;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+}
+
+.text-input:hover {
+    border-color: #00B1B8;
+}
+
+select {
+    width: 100%;
+    color: #fafafa;
+    font-family: Montserrat, sans-serif;
+}
+
+.name {
+    vertical-align: top;
+    display: inline-block;
+    width: 40%;
+    padding-right: 20px;
+}
+
+.contact {
+    vertical-align: top;
+    display: inline-block;
+    width: 40%;
+    padding-right: 20px;
+}
+
+.location {
+    vertical-align: top;
+    display: inline-block;
+    width: 40%;
+    padding-right: 20px;
+}
+
+.experience {
+    vertical-align: top;
+    display: inline-block;
+    width: 40%;
+    padding-right: 20px;
+}
+
+.join-button {
+    height: 25px;
+    border: solid 1px #fafafa;
+    border-radius: 2px;
+    width: 20%;
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+}
+
+.join-button:hover {
+    background-color: #4e4e4e;
+    border-color: #4e4e4e;
+    color: #fafafa
+}
+
+
