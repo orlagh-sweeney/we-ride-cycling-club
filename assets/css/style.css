@@ -175,6 +175,7 @@ This code was causing then navigation bar not to work so it has been removed.
 
 #how-it-works {
     height: 300px;
+    text-align: center;
 }
 
 #how-it-works > h2 {
@@ -190,29 +191,37 @@ This code was causing then navigation bar not to work so it has been removed.
     font-size: 110%;
 }
 
+.how-text {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
 #left-work {
-    margin-left: 300px;
+    /* margin-left: 300px; */
     padding-top: 10px;
-    height: 75%;
-    width: 22%;
-    float: left;
+    height: 150px;
+    width: 300px;
+    /* float: left; */
     text-align: center;
 }
 
 #right-work {
-    margin-right: 300px;
+    /* margin-right: 300px; */
     padding-top: 10px;
-    height: 75%;
-    width: 22%;
-    float: right;
+    height: 150px;
+    width: 300px;
+    /* float: right; */
     text-align: center;
 }
 
 #center-work {
     padding-top: 10px;
-    height: 75%;
-    width: 22%; 
-    margin: 0 auto;
+    height: 150px;
+    width: 300px; 
+    /* margin: 0 auto; */
     text-align: center;
 }
 
@@ -231,6 +240,7 @@ div > h3 {
 
 #join-us {
     height: 75px;
+    margin-top: 35px;
 }
 
 #join-us > h2 {
