@@ -108,6 +108,7 @@ This code was causing then navigation bar not to work so it has been removed.
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background-color: rgba(0,128,133,.7);
 }
 
 /* introduction */
