@@ -472,6 +472,8 @@ select {
 /* For larger to medium screens size from 1200px down */
 @media screen and (max-width: 1200px) {
 
+/* introduction index page */
+
 #intro {
     width: 80%;
     height: 675px;
@@ -485,6 +487,31 @@ select {
 
 #left-intro, #center-intro, #right-intro {
     width: 25%;
+}
+
+/* how it works index page */
+
+#how-it-works {
+    width: 80%;
+    height: 750px;
+    margin: 0 auto;
+}
+
+#how-it-works > h2 {
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+}
+
+.how-text {
+    display: block;
+    margin: auto;
+}
+
+#right-work, #left-work, #center-work{
+    height: 30%;
+    padding: 0;
+    width: 70%;
 }
 
 }
