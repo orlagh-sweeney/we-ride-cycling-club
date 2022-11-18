@@ -114,9 +114,11 @@ This code was causing then navigation bar not to work so it has been removed.
 
 #intro {
     height: 600px;
+    text-align: center;
 }
 
 #introduction {
+    height: 150px;
     text-align: center;
     padding: 1% 16.5%;
 }
@@ -130,35 +132,42 @@ This code was causing then navigation bar not to work so it has been removed.
     font-size: 110%;
 }
 
-#left-about {
+.intro-image {
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#left-intro {
     background: url('../images/image-left.jpg') no-repeat center center;
     background-size: cover;
-    margin-left: 300px;
-    padding-top: 5px;
-    height: 75%;
-    width: 22%;
-    float: left;
+    /* margin-left: 200px; */
+    /* padding-top: 5px; */
+    height: 400px;
+    width: 300px;
+    /* float: left; */
     background-color: #fafafa;
 }
 
-#right-about {
+#right-intro {
     background: url('../images/image-right.jpg') no-repeat center center;
     background-size: cover;
-    margin-right: 300px;
-    padding-top: 5px;
-    height: 75%;
-    width: 22%;
-    float: right;
+   /* margin-right: 200px; */
+    /* padding-top: 5px; */
+    height: 400px;
+    width: 300px;
+    /* float: right; */
     background-color: #fafafa;
 }
 
-#center-about {
+#center-intro {
     background: url('../images/image-center.jpg') no-repeat center center; 
     background-size: cover;
-    padding-top: 5px;
-    height: 75%;
-    width: 22%; 
-    margin: 0 auto;
+    /* padding-top: 5px; */
+    height: 400px;
+    width: 300px; 
+    /* margin: 0 auto; */
     background-color: #fafafa;
 }
 
