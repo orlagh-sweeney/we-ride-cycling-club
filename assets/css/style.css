@@ -467,4 +467,24 @@ select {
     color: #fafafa
 }
 
+/* Media Queries */
 
+/* For larger to medium screens size from 1200px down */
+@media screen and (max-width: 1200px) {
+
+#intro {
+    width: 80%;
+    height: 675px;
+    margin: 0 auto;
+}
+
+#introduction {
+    width: 100%;
+    padding: 10px;
+}
+
+#left-intro, #center-intro, #right-intro {
+    width: 25%;
+}
+
+}
