@@ -120,6 +120,7 @@ This code was causing then navigation bar not to work so it has been removed.
 #introduction {
     height: 150px;
     text-align: center;
+    margin-top: 10px;
     padding: 1% 16.5%;
 }
 
@@ -128,7 +129,7 @@ This code was causing then navigation bar not to work so it has been removed.
 }
 
 #introduction > p {
-    padding-top: 1%;
+    padding-top: 2%;
     font-size: 110%;
 }
 
@@ -512,6 +513,22 @@ select {
     height: 30%;
     padding: 0;
     width: 70%;
+}
+
+}
+
+/* For medium screens size from 950px wide and down */
+@media screen and (max-width: 950px) {
+
+#menu {
+    clear: left;
+    float: right;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#menu li {
+    margin-right: 20px;
 }
 
 }
