@@ -484,11 +484,18 @@ select {
 
 #introduction {
     width: 100%;
+    margin-top: 30px;
     padding: 10px;
+}
+
+#introduction > p {
+    padding-left: 8%;
+    padding-right: 8%;
 }
 
 #left-intro, #center-intro, #right-intro {
     width: 25%;
+    margin-top: 30px;
 }
 
 /* how it works index page */
@@ -564,6 +571,7 @@ select {
 
 #left-intro, #center-intro, #right-intro {
     height: 25%;
+    margin: 0 auto;
     width: inherit;
     margin-bottom: 10px;
 }
