@@ -35,8 +35,8 @@
     <section id="contact-section">
         <h1>Have a query?</h1>
         <h2>Get in touch</h2>
-        <div>
-            <form class="contact-form" action="https://formdump.codeinstitute.net/" method="POST">
+        <div class="contact-block">
+            <form id="contact-form" action="https://formdump.codeinstitute.net/" method="POST">
                 <h3>Send a message</h3>
                 <div class="name">
                     <label for="fname">First Name</label>
@@ -58,6 +58,7 @@
 
                 <div>
                     <label for="textarea">Message</label>
+                    <br>
                     <textarea name="message" id="textarea" cols="30" rows="10"></textarea>
                 </div>
 
@@ -65,8 +66,9 @@
                     <input class="message-button" type="submit" value="Submit">
                     <input class="message-button" type="reset" value="Reset Form">
                 </div>
+                </form>
         </div>
-        <div>
+        <div class="contact-block" id="contact-details">
             <h3>Contact us directly</h3>
             <p>details</p>
         </div>
