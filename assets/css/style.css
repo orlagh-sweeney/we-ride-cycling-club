@@ -474,6 +474,30 @@ select {
     color: #fafafa
 }
 
+/* contact page */
+
+#contact-section {
+    height: 900px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#contact-section > h1 {
+    text-align: center;
+    font-size: 250%;
+    color: #00B1B8;
+}
+
+#contact-section > h2 {
+    text-align: center;
+    font-size: 180%;
+}
+
+#contact-section > h3 {
+    text-align: center;
+    font-size: 160%;
+}
+
 /* Media Queries */
 
 /* For larger to medium screens size from 1200px down */

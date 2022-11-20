@@ -32,11 +32,34 @@
             </ul>
         </nav>
     </header>
-    <section id="contact">
-        <h1>Have a query</h1>
+    <section id="contact-section">
+        <h1>Have a query?</h1>
         <h2>Get in touch</h2>
-        <div>Contact Form</div>
-        <div>Contact Details</div>
+        <div>
+            <form class="contact-form" action="https://formdump.codeinstitute.net/" method="POST">
+                <h3>Send a message</h3>
+                <div class="name">
+                    <label for="fname">First Name</label>
+                    <input class="text-input" type="text" name="first_name" id="fname" required>
+                </div>
+                <div class="name">
+                    <label for="lname">Last Name</label>
+                    <input class="text-input" type="text" name="last_name" id="lname" required>
+                </div>
+                
+                <div class="contact">
+                    <label for="email">Email Address</label>
+                    <input class="text-input" type="email" name="email_address" id="email" required>
+                </div>
+                <div class="contact">
+                    <label for="mobile">Mobile Number</label>
+                    <input class="text-input" type="text" name="mobile_number" id="mobile">
+                </div>
+        </div>
+        <div>
+            <h3>Contact us directly</h3>
+            <p>details</p>
+        </div>
     </section>
     <footer>
         <ul class="social-links">
