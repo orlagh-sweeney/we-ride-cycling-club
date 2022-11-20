@@ -540,4 +540,31 @@ select {
     line-height: 40px;
 }
 
+/* introduction images max-width 950px*/
+
+#intro {
+    width: 90%;
+    height: 1200px;
+    margin: 0 auto;
+}
+
+#introduction {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 2px;
+    padding-top: 10px;     
+}
+
+.intro-image {
+    display: block;
+    margin: auto;
+}
+
+#left-intro, #center-intro, #right-intro {
+    height: 25%;
+    width: inherit;
+    margin-bottom: 10px;
+}
+
 }
