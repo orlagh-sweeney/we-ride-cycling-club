@@ -529,6 +529,10 @@ select {
     padding-bottom: 20px;
 }
 
+/* join us page */
+
+
+
 }
 
 /* For medium screens size from 950px wide and down */
@@ -579,6 +583,29 @@ select {
     margin: 0 auto;
     width: inherit;
     margin-bottom: 10px;
+}
+
+/* join us page */
+
+.form-section {
+    height: 900px;
+    width: 100%; 
+}
+
+.join-us-form {
+    width: 90%;
+    height: 750px;
+    margin-top: 200px;
+    padding: 0;
+}
+
+.name, .experience, .contact, .location {
+    display: block;
+    width: 85%;
+}
+
+.join-button {
+    width: 30%;
 }
 
 }
