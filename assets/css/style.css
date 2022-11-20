@@ -465,6 +465,7 @@ select {
     width: 20%;
     font-family: Montserrat, sans-serif;
     text-transform: uppercase;
+    margin-left: 30px;
 }
 
 .join-button:hover {
