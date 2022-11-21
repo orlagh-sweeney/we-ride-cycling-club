@@ -103,6 +103,7 @@ This code was causing then navigation bar not to work so it has been removed.
     font-size: 200%;
     font-family: "Barlow Condensed", sans-serif;
     text-transform: uppercase;
+    padding: 5px 10px 5px 10px; 
 
     position: absolute;
     top: 50%;
@@ -308,18 +309,21 @@ footer {
 
 .about h2 {
     color: #fafafa;
-    font-size: 180%;
+    font-size: 200%;
     font-family: "Barlow Condensed", sans-serif;
     text-transform: uppercase;
+    padding: 5px 10px 5px 10px; 
 
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background-color: rgba(0,128,133,.7);
 }
 
 .about-text > p {
-    height: 75px;
+    height: 150px;
+    font-size: 110%;
     text-align: center;
     padding: 1% 16.5%;
 }
@@ -334,35 +338,59 @@ footer {
     background-color: #4e4e4e;
 }
 
+/* values section: about.html */
+
 #values {
     background: url('../images/about-values.jpg') no-repeat center center;
     background-color: #4e4e4e;
 }
 
+#values-section {
+    text-align: center;    
+}
+
+.values-text {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.values-text h3 {
+    font-size: 160%;    
+}
+
+.values-text p {
+    font-size: 110%;    
+}
+
 #left-value {
-    margin-left: 300px;
+    /* margin-left: 300px; */
     padding-top: 10px;
     padding-bottom: 37.5px;
-    height: 75px;
-    width: 22%;
-    float: left;
+    height: 150px;
+    width: 300px;
+    /* float: left; */
     text-align: center;
 }
 
 #right-value {
-    margin-right: 300px;
+    /* margin-right: 300px; */
     padding-top: 10px;
     padding-bottom: 37.5px;
-    width: 22%;
-    float: right;
+    height: 150px;
+    width: 300px;
+    /* float: right;*/
     text-align: center;
 }
 
 #center-value {
     padding-top: 10px;
     padding-bottom: 37.5px;
-    width: 22%; 
-    margin: 0 auto;
+    height: 150px;
+    width: 300px;
+    /* margin: 0 auto; */
     text-align: center;
 }
 
