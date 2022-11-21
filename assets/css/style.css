@@ -306,9 +306,9 @@ footer {
     position: relative;
 }
 
-.about h1 {
+.about h2 {
     color: #fafafa;
-    font-size: 200%;
+    font-size: 180%;
     font-family: "Barlow Condensed", sans-serif;
     text-transform: uppercase;
 
