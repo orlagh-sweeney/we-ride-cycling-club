@@ -477,7 +477,7 @@ select {
 /* contact page */
 
 #contact-section {
-    height:750px;
+    height: 600px;
     width: 100%;
     margin-left: 30px;
     margin-right: 30px;
@@ -495,9 +495,22 @@ select {
     font-size: 180%;
 }
 
-#contact-section > h3 {
-    text-align: center;
+.contact-block h3 {
     font-size: 160%;
+    margin-left: 5%;
+    margin-bottom: 10px;
+}
+
+.contact-block h4 {
+    font-size: 100%;
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    margin-left: 5%;
+    margin-bottom: 5px;
+}
+
+#contact-form > div {
+    padding-bottom: 20px;
 }
 
 .contact-block {
@@ -507,16 +520,18 @@ select {
 }
 
 #contact-form {
-    background-color: #00B1B8;
     width: 900px;
     height: 600px;
 }
 
 #contact-details {
-    background-color: #4e4e4e;
     width: 450px;
-    height: 600px;
+    height: 300px;
     text-align: top;
+}
+
+#contact-details p {
+    margin-left: 5%;
 }
 
 #contact-form .text-input {
@@ -535,6 +550,10 @@ select {
     color: #4e4e4e;
     width: 85%;
     height: 150px;
+    margin-left: 5%;
+}
+
+div label[for="textarea"] {
     margin-left: 5%;
 }
 
