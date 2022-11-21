@@ -251,7 +251,7 @@ div > h3 {
 
 #cta a {
     text-decoration: none;
-    color: #4e4e4e;
+    color: #fafafa;
 }
 
 #cta {
@@ -268,7 +268,7 @@ div > h3 {
 }
 
 #cta a:hover {
-    color: #fafafa;
+    color: #4e4e4e;
 }
 
 /* footer */
