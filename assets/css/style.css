@@ -404,7 +404,7 @@ footer {
     height: 900px;
     width: 100%;
     overflow: hidden;
-    /* position: relative; */
+    position: relative;
 }
 
 .join-us-form {
@@ -757,7 +757,6 @@ div label[for="textarea"] {
 .join-us-form {
     width: 90%;
     height: 750px;
-    margin-top: 200px;
     padding: 0;
 }
 
