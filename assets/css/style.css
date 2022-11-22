@@ -742,7 +742,7 @@ div label[for="textarea"] {
 
 #values-section p {
     height: 75px;
-    width: 600px;
+    width: 450px;
     margin: 0 auto; 
     margin-top: 20px;
     margin-bottom: 20px;
@@ -757,20 +757,18 @@ div label[for="textarea"] {
     padding: 0;
 }
 
-#left-value p {
-    margin: 0;
+#center-value, #right-value, #left-value {
+    width: 450px; 
 }
 
-#center-value p {
+#left-value p, #center-value p, #right-value p {
     margin: 0;
-}
-
-#right-value p {
-    margin: 0;
+    height: 40px;
 }
 
 #about-video p {
     width: 600px;
+    padding-top: 20px;
 }
 
 }
