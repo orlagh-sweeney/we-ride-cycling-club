@@ -401,6 +401,14 @@ footer {
     text-align: center;
 }
 
+#video {
+    margin-top: 20px;
+}
+
+#about-video p {
+    margin-top: 20px;
+}
+
 /* Join Us Form */
 
 .form-section {
