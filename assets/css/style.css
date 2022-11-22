@@ -871,4 +871,42 @@ div label[for="textarea"] {
     width: 40%;
 }
 
+/* about page max-width 950px */
+
+#story-section {
+    height: 975px;
+}
+
+#people-section {
+    height: 900px;
+}
+
+#values-section {
+    height: 1500px;
+}
+
+.about-text p {
+    width: 300px;
+    padding: 0;
+    font-size: 100%;
+}
+
+#values-section p {
+    width: 300px;    
+    padding-bottom: 40px;
+}
+
+#center-value, #right-value, #left-value {
+    width: 300px; 
+    padding-bottom: 10px;
+}
+
+#video {
+    width: 65%;
+}
+
+#about-video p {
+    width: 65%;
+}
+
 }
