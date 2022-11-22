@@ -636,8 +636,9 @@ div label[for="textarea"] {
 }
 
 #introduction > p {
-    padding-left: 8%;
-    padding-right: 8%;
+    font-size: 100%;
+    /* padding-left: 8%;
+    padding-right: 8%; */
 }
 
 #left-intro, #center-intro, #right-intro {
