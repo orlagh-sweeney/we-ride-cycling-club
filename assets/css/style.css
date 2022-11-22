@@ -325,6 +325,7 @@ footer {
 
 .about-text > p {
     height: 150px;
+    margin-top: 50px;
     font-size: 110%;
     text-align: center;
     padding: 1% 16.5%;
@@ -351,6 +352,10 @@ footer {
     text-align: center;    
 }
 
+#values-section > p {
+    height: 75px;
+}
+
 .values-text {
     display: inline-block;
     vertical-align: top;
@@ -369,9 +374,9 @@ footer {
 
 #left-value {
     /* margin-left: 300px; */
-    padding-top: 10px;
-    padding-bottom: 37.5px;
-    height: 150px;
+    /* padding-top: 10px;
+    padding-bottom: 37.5px; */
+    height: 75px;
     width: 300px;
     /* float: left; */
     text-align: center;
@@ -379,18 +384,18 @@ footer {
 
 #right-value {
     /* margin-right: 300px; */
-    padding-top: 10px;
-    padding-bottom: 37.5px;
-    height: 150px;
+    /* padding-top: 10px;
+    padding-bottom: 37.5px; */
+    height: 75px;
     width: 300px;
     /* float: right;*/
     text-align: center;
 }
 
 #center-value {
-    padding-top: 10px;
-    padding-bottom: 37.5px;
-    height: 150px;
+    /* padding-top: 10px;
+    padding-bottom: 37.5px; */
+    height: 75px;
     width: 300px;
     /* margin: 0 auto; */
     text-align: center;
@@ -636,7 +641,7 @@ div label[for="textarea"] {
 }
 
 #introduction > p {
-    font-size: 100%;
+    font-size: 110%;
     /* padding-left: 8%;
     padding-right: 8%; */
 }
@@ -736,6 +741,10 @@ div label[for="textarea"] {
     margin: 0 auto;
     margin-bottom: 2px;
     padding-top: 10px;     
+}
+
+#introduction > p {
+    font-size: 100%;
 }
 
 .intro-image {
