@@ -281,6 +281,7 @@ footer {
 
 .social-links {
     text-align: center;
+    padding-top: 50px;
 }
 
 .social-links > li {
@@ -290,7 +291,8 @@ footer {
 .social-links i {
     color: #fafafa;
     font-size: 200%;
-    margin: 3%;
+    margin-left: 4%;
+    margin-right: 4%;
 }
 
 .social-links i:hover {
@@ -747,7 +749,7 @@ div label[for="textarea"] {
     margin-bottom: 10px;
 }
 
-/* join us page */
+/* join us page max-width 950px */
 
 .form-section {
     height: 900px;
