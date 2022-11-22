@@ -712,6 +712,66 @@ div label[for="textarea"] {
     margin-left: 2.5%;
 }
 
+/*about page max-width 1200px*/
+
+#story-section {
+    height: 925px;
+    text-align: center;
+}
+
+#people-section {
+    height: 900px;
+}
+
+#values-section {
+    height: 1425px;
+    text-align: center;
+}
+
+.about-text p {
+    height: 225px;
+    width: 450px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#people-section > p {
+    padding-top: 40px;
+}
+
+#values-section p {
+    height: 75px;
+    width: 600px;
+    margin: 0 auto; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.values-text {
+    display: block;
+    margin: 0 auto;
+}
+
+.values-text h3 {
+    padding: 0;
+}
+
+#left-value p {
+    margin: 0;
+}
+
+#center-value p {
+    margin: 0;
+}
+
+#right-value p {
+    margin: 0;
+}
+
+#about-video p {
+    width: 600px;
+}
 
 }
 
