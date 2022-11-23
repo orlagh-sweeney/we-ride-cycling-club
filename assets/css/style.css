@@ -783,6 +783,7 @@ div label[for="textarea"] {
     float: right;
     line-height: 20px;
     margin-bottom: 20px;
+    font-size: 120%;
 }
 
 #menu li {
