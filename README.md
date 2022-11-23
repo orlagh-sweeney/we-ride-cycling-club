@@ -42,8 +42,8 @@
 - Provide a contact details for users to be able to ask for more information. 
 ### User Stories
 - As a user, I want to be able to easily navigate the website to discover more about the cycling club. 
-- As a user, I want to be able to join the cylcing club.
-- As a user, I want to be able to find contact information should I have a question. 
+- As a user, I want to be able to join the cycling club.
+- As a user, I want to be able to find contact information for the cycling club. 
 - As a user, I want to be able to find the cycling club on social media. 
 ### Colour Scheme
 #### The colour scheme used was a modern teal green with grey and white. A teal 
@@ -109,22 +109,30 @@
 ## Testing
 
 ### Testing User Stories
+- As a user, I want to be able to easily navigate the website to discover more about the cycling club. 
+    - The website menu bar allows the user to navigate through the pages of the website.
+    - The website pages have clearly identified sections for the user to be able to scan and digest the information.
+- As a user, I want to be able to join the cycling club.
+    - The website had a join us registration form.
+- As a user, I want to be able to find contact information for the cycling club. 
+    - The website has a dedicated contact page where a user can submit a request using the contact form or directly contact the cycling club using the information provided.
+- As a user, I want to be able to find the cycling club on social media. 
+    - The website has links to the clubs social media pages on the footer of each page. 
 ### Code Validation
-#### W3C Markup Validator
-No errors
-#### W3C CSS Validator
-No errors
+The following validators were used to test the code:
+- [W3C Markup Validator](https://validator.w3.org/): No errors were returned when passing the final HTML code through the validator. 
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/): No errors were returned when passing the final CSS code through the validator.
+The validators were used throughout the development stage of the website. Examples of errors can be found below: 
 
 ### Accessibility
-#### Lighthouse
-Lighthouse in Chrome DevTools was used to check accessibility the score of each site page and to see if there were issues. For example: Lighthouse highlighted an issue with radio button labels on the Join Us page. The wrong "for" value had been assigned to the 80-100km radio button which impacted the accessbility score. After fixing this issue the accessibility score increased from 90 to 100.
-Lighthouse reports:
+The following tool was used to check accessibility of the website:
+- [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/): was used to check accessibility the score of each site page and to see if there were issues. 
+    - This tool highlighted an issue with radio button labels on the Join Us page. The wrong "for" value had been assigned to the 80-100km radio button which impacted the accessbility score. After fixing this issue the accessibility score increased from 90 to 100.
+- Lighthouse reports:
 ### Tools Testing
-#### Chrome DevTools
-This was used throughout the project to test responsiveness of the site, to de-bug any issues, and to test changes to HTML and CSS before implementing them in Gitpod. 
-
-#### Responsive Design Checker
-This was used to check the responsiveness of the site on different device sizes.  
+The following tools were used to test the website:
+- [Chrome DevTools](https://developer.chrome.com/docs/devtools/): This was used throughout the project to test responsiveness, to de-bug any issues, and to test changes to HTML and CSS before implementing them in Gitpod. 
+- [Responsive Design Checker](https://www.responsivedesignchecker.com/): This was used to check the responsiveness of the site on different device sizes.  
 
 ### Feature Testing
 The following website features were manually tested:
