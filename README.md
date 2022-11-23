@@ -1,8 +1,9 @@
 # We Ride Cycling Club 
 <image src="assets/readme-files/we-ride-devices-mockup.png" width="900px" text-align="center"></image>
-#### We Ride Cycling Club is a fictional cycling community for expats in Europe. We Ride Cycling Club matches expats with "Local Leaders" in the city they are moving to. The cyclists can join the group rides lead by the Local Leaders, meet fellow expats and get access to a database of cycling routes to upload to their Garmin to explore solo. 
 
-#### The goal of We Ride Cycling Club website is to help the club build a community network of cyclists across Europe, help expats discover their new home from a local perspective, and provide an easy sign up registration process for cyclists. We Rice Cycling Club wants to make it easy and less daunting for cyclists to discover their new home.
+We Ride Cycling Club is a fictional cycling community for expats in Europe. We Ride Cycling Club matches expats with "Local Leaders" in the city they are moving to. The cyclists can join the group rides lead by the Local Leaders, meet fellow expats and get access to a database of cycling routes to upload to their Garmin to explore solo. 
+
+The goal of We Ride Cycling Club website is to help the club build a community network of cyclists across Europe, help expats discover their new home from a local perspective, and provide an easy sign up registration process for cyclists. We Rice Cycling Club wants to make it easy and less daunting for cyclists to discover their new home.
 
 ## Table of Contents
 1. [User Experience](#user-experience-ux)
@@ -37,7 +38,7 @@
 
 ## User Experience (UX)
 ### Project Goals
-- Build a clean, modern website for a cycling club with a strong sense of community.  
+- Build a clean, modern website for a cycling club which conveys a strong sense of community.  
 - Clearly outline how the cycling club works.
 - Provide a registration form for cyclists to join the club.
 - Provide a contact details for users to be able to ask for more information. 
@@ -47,15 +48,15 @@
 - As a user, I want to be able to find contact information for the cycling club. 
 - As a user, I want to be able to find the cycling club on social media. 
 ### Colour Scheme
-#### The colour scheme used was a modern teal green with grey and white. A teal 
+The colour scheme used was a modern teal green with a charcoal grey and white. A green shade was chosen to be representative of being outdoors, with the teal colour giving a modern, clean feel to the website. 
+<image src="assets/readme-files/we-ride-colour-palette.png" width="900px"></image>
 ### Typography
 - Barlow Condensed was used for the logo and headings with sans-serif as the fallback font.
-- Montserrat for body/paragraph text with sans-serif as the fall back font.
+- Montserrat was used for body/paragraph text with sans-serif as the fallback font.
 ### Wireframes
-- Balsamiq was used to develop wireframes in the planning stage of the website. 
+- [Balsamiq](https://balsamiq.com/) was used to develop wireframes in the planning stage of the website. 
 
 ## Features
-
 ### General
 - The website incorporates a responsive design so it can be used across multiple device sizes. 
 - The website uses a consistnet colour scheme across the site. 
@@ -95,6 +96,7 @@
 - Balsamiq: this was used to created wireframes in the planning stage of the project. 
 - Fontpair: fontpair was used to find fonts that compliment each other. 
 - Google Fonts: this was used to import fonts into the style.css file.
+- Coolers: to generate a colour pallete for the website. 
 - Font Awesome: this was used to add icons to pages to enhance user experience. 
 - Pexals: this was used to find images and videos for the project. 
 - Gitpod: this was used to write, commit and to push the code to Github. 
