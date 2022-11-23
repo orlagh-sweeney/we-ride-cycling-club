@@ -77,15 +77,6 @@ h3 {
 
 /* hero image */
 
-/*
-This code was causing then navigation bar not to work so it has been removed. 
-
-#hero-container {
-    position: relative;
-    text-align: center;
-}
-*/
-
 #cover-text h1 {
     color: #fafafa;
 }
@@ -145,32 +136,24 @@ This code was causing then navigation bar not to work so it has been removed.
 #left-intro {
     background: url('../images/image-left.jpg') no-repeat center center;
     background-size: cover;
-    /* margin-left: 200px; */
-    /* padding-top: 5px; */
     height: 400px;
     width: 300px;
-    /* float: left; */
     background-color: #fafafa;
 }
 
 #right-intro {
     background: url('../images/image-right.jpg') no-repeat center center;
     background-size: cover;
-   /* margin-right: 200px; */
-    /* padding-top: 5px; */
     height: 400px;
     width: 300px;
-    /* float: right; */
     background-color: #fafafa;
 }
 
 #center-intro {
     background: url('../images/image-center.jpg') no-repeat center center; 
     background-size: cover;
-    /* padding-top: 5px; */
     height: 400px;
     width: 300px; 
-    /* margin: 0 auto; */
     background-color: #fafafa;
 }
 
@@ -203,20 +186,16 @@ This code was causing then navigation bar not to work so it has been removed.
 }
 
 #left-work {
-    /* margin-left: 300px; */
     padding-top: 10px;
     height: 150px;
     width: 300px;
-    /* float: left; */
     text-align: center;
 }
 
 #right-work {
-    /* margin-right: 300px; */
     padding-top: 10px;
     height: 150px;
     width: 300px;
-    /* float: right; */
     text-align: center;
 }
 
@@ -224,7 +203,6 @@ This code was causing then navigation bar not to work so it has been removed.
     padding-top: 10px;
     height: 150px;
     width: 300px; 
-    /* margin: 0 auto; */
     text-align: center;
 }
 
@@ -373,31 +351,20 @@ footer {
 }
 
 #left-value {
-    /* margin-left: 300px; */
-    /* padding-top: 10px;
-    padding-bottom: 37.5px; */
     height: 75px;
     width: 300px;
-    /* float: left; */
     text-align: center;
 }
 
 #right-value {
-    /* margin-right: 300px; */
-    /* padding-top: 10px;
-    padding-bottom: 37.5px; */
     height: 75px;
     width: 300px;
-    /* float: right;*/
     text-align: center;
 }
 
 #center-value {
-    /* padding-top: 10px;
-    padding-bottom: 37.5px; */
     height: 75px;
     width: 300px;
-    /* margin: 0 auto; */
     text-align: center;
 }
 
@@ -405,6 +372,7 @@ footer {
     margin-top: 20px;
     background-color: #4e4e4e;
     color: #fafafa;
+    width: 600px;
 }
 
 #about-video p {
@@ -655,8 +623,6 @@ div label[for="textarea"] {
 
 #introduction > p {
     font-size: 110%;
-    /* padding-left: 8%;
-    padding-right: 8%; */
 }
 
 #left-intro, #center-intro, #right-intro {
