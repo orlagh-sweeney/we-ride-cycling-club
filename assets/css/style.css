@@ -886,7 +886,7 @@ div label[for="textarea"] {
 }
 
 #values-section {
-    height: 1500px;
+    height: auto;
 }
 
 .about-text p {
