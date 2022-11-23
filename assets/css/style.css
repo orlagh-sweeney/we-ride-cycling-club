@@ -77,8 +77,9 @@ h3 {
 
 /* hero image */
 
-#cover-text h1 {
+#cover-text h2 {
     color: #fafafa;
+    font-weight: 500;
 }
 
 #hero-image {
@@ -501,13 +502,14 @@ select {
     text-align: center;
 }
 
-#contact-section > h1 {
+#contact-section > h2 {
     text-align: center;
     font-size: 250%;
     color: #00B1B8;
+    font-weight: 500;
 }
 
-#contact-section > h2 {
+#contact-section > h3 {
     text-align: center;
     font-size: 180%;
 }
