@@ -110,32 +110,55 @@
 
 ### Testing User Stories
 ### Code Validation
-### Accessibility
-### Tools Testing
-Chrome DevTools
-This was used throughout the project to test responsiveness of the site, to de-bug and issues and to test changes to HTML and CSS before implementing them in Gitpod. 
-Lighthouse was used to check accessibility score of the site and to see if there were issues. For example: Lighthouse highlighted an issue with radio button labels. The wrong "for" had been assigned to the 80-100km radio button which impacted the accessbility score. After fixing this issue the accessibility score increased from 90 to 100.
+#### W3C Markup Validator
+No errors
+#### W3C CSS Validator
+No errors
 
-Responsive Design Checker
+### Accessibility
+#### Lighthouse
+Lighthouse in Chrome DevTools was used to check accessibility the score of each site page and to see if there were issues. For example: Lighthouse highlighted an issue with radio button labels on the Join Us page. The wrong "for" value had been assigned to the 80-100km radio button which impacted the accessbility score. After fixing this issue the accessibility score increased from 90 to 100.
+Lighthouse reports:
+### Tools Testing
+#### Chrome DevTools
+This was used throughout the project to test responsiveness of the site, to de-bug any issues, and to test changes to HTML and CSS before implementing them in Gitpod. 
+
+#### Responsive Design Checker
 This was used to check the responsiveness of the site on different device sizes.  
+
 ### Feature Testing
-Website features were manually tested:
+The following website features were manually tested:
 - Clicking on the logo will bring the user to the home page.
 - The navigation menu links work on each page and bring the user to the correct page. 
-- The join us CTA button brings the user the to Join Us page.
-- The social media links open up the relevant social media page in a new window. 
-- The submit button does not work until all fields have been filled in by the user - testing this function revealed that the 'Mobile Number' field was note marked as required. 
+- The join us CTA button on the home page and about page brings the user the to Join Us page.
+- When social media icons are clicked the relevant social media page opens in a new window. 
+- The submit button on the Join Us form and Contact form does not work until all fields have been filled in by the user. Testing this function revealed that the 'Mobile Number' and 'textarea' fields were not marked as 'required'. This was reolved.  
 - The reset button clears the form. 
+- The hover effect added to buttons and text fields highlights functionality for the user. 
+
 ## Finished Product
 
-## Deployement
+## Deployment
+The website was developed in Gitpod. It was then commited and pushed to GitHub. 
+The finished site was then deployed to GitHub pages using the following steps: 
+1. Open GitHub and click on the We Ride Cycling Club repository. 
+2. Once inside the repsitory, locate and click on the settings tab. 
+3. On the left handside under the 'Code and automation' section, click on Pages. 
+4. In the Branch section, locate the dropdown menu and change it from None to Main. 
+5. Click save. The page will refresh with a link to your website. 
+
+The live link can be found here: https://orlagh-sweeney.github.io/we-ride-cycling-club/index.html
 
 ## Credits
 ### Content
-- All written content was created by the developer. 
+- All content was written by the developer. 
 ### Media
-- Photos were taken from Pexals.
-    - 
+- Photos and videos were taken from Pexals.
+- Icons were taken from Font Awesome 
 ### Code
-
+- [Stackoverflow](https://stackoverflow.com/) and [W3Schools](https://www.w3schools.com/) were used throughout the development to educate myself and to seek help on the following features: 
+- I used W3Schools to create the dropdown menu feature on the Join Us. I used the solution on the [HTML Form Elements](https://www.w3schools.com/html/html_form_elements.asp) page. 
+- I used Stackoverflow to center the form on the Join Us page, I used the solution shared by [Rhythm Shandlya](https://stackoverflow.com/questions/8097744/how-do-i-center-this-form-in-css).   
+- I used W3Schools to find out how to add rounded corner to buttons. I used the solution from the [CSS Rounded Corners](https://www.w3schools.com/css/css3_borders.asp).
 ## Acknowledgements
+- Thank you to my mentor Marcel for his feedback and suggestions at each stage of the project. 
