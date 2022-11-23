@@ -153,8 +153,17 @@ The live link can be found here: https://orlagh-sweeney.github.io/we-ride-cyclin
 ### Content
 - All content was written by the developer. 
 ### Media
-- Photos and videos were taken from Pexals.
-- Icons were taken from Font Awesome 
+- Photos and videos were taken from [Pexals](https://www.pexels.com/):
+    - Home page hero image: "Three Men Riding on Bicycles" by Pavel Danilyuk
+    - Home page introduction image 1: "Woman Wearing White Helmet" by Kezia Rhesa Arman 
+    - Home page introduction image 2: "People Riding Bicycle on the Road" by Samuel Vogl
+    - Home page introduction image 3: "Adult cyclist smiling on field by Centre" for Ageing Better
+    - Our Story image: "Person in Black Long Sleeve Riding Bicycle on the Road" by Gregory Costa
+    - Our People image: "High Angle Shot of Person Riding a Bike" by Niklas Jeromin 
+    - Mission and Values image: "Man in Black Shirt Riding Bicycle on Gray Asphalt Road" by Pack2Ride
+    - Mission and Values video: "Drone Shot of Cyclists on the Road" by LegioSeven
+    - Join Us background image: "Aerial Shot of People Riding Bicycle on Road Between Trees" by Pavel Danilyuk
+- Icons were taken from [Font Awesome](https://fontawesome.com/). 
 ### Code
 - [Stackoverflow](https://stackoverflow.com/) and [W3Schools](https://www.w3schools.com/) were used throughout the development to educate myself and to seek help on the following features: 
 - I used W3Schools to create the dropdown menu feature on the Join Us. I used the solution on the [HTML Form Elements](https://www.w3schools.com/html/html_form_elements.asp) page. 
