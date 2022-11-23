@@ -1,38 +1,39 @@
 # We Ride Cycling Club 
+<image src="assets/readme-files/we-ride-devices-mockup.png" width="900px" text-align="center"></image>
 #### We Ride Cycling Club is a fictional cycling community for expats in Europe. We Ride Cycling Club matches expats with "Local Leaders" in the city they are moving to. The cyclists can join the group rides lead by the Local Leaders, meet fellow expats and get access to a database of cycling routes to upload to their Garmin to explore solo. 
 
 #### The goal of We Ride Cycling Club website is to help the club build a community network of cyclists across Europe, help expats discover their new home from a local perspective, and provide an easy sign up registration process for cyclists. We Rice Cycling Club wants to make it easy and less daunting for cyclists to discover their new home.
 
 ## Table of Contents
-1. User Experience
-    - Project Goals
-    - User Stories
-    - Coliur Scheme
-    - Typography
-    - Wireframes
-2. Features
-    - General
-    - Home Page
-    - About Page
-    - Join Us Page
-    - Contact Page
-    - Future Features
-3. Technologies Used
-    - Languages
-    - Frameworks, Libraries and Programmes
-4. Testing 
-    - Testing User Stories
-    - Code Validation
-    - Accessibility
-    - Tools Testing
-    - Manual Testing
-5. Finished Product
-6. Deployment
-7. Credits 
-    - Content
-    - Media 
-    - Code
-8. Acknowledgements
+1. [User Experience](#user-experience-ux)
+    - [Project Goals](#project-goals)
+    - [User Stories](#user-stories)
+    - [Colour Scheme](#colour-scheme)
+    - [Typography](#typography)
+    - [Wireframes](#wireframes)
+2. [Features](#features)
+    - [General](#general)
+    - [Home Page](#home-page)
+    - [About Page](#about-page)
+    - [Join Us Page](#join-us-page)
+    - [Contact Page](#contact-page)
+    - [Future Features](#future-features)
+3. [Technologies Used](#technologies-used)
+    - [Languages](#languages)
+    - [Frameworks, Libraries and Programmes](#frameworks-libraries-and-programmes)
+4. [Testing](#testing)
+    - [Testing User Stories](#testing-user-stories)
+    - [Code Validation](#code-validation)
+    - [Accessibility](#accessibility)
+    - [Tools Testing](#tools-testing)
+    - [Feature Testing](#feature-testing)
+5. [Finished Product](#finished-product)
+6. [Deployment](#deployment)
+7. [Credits](#credits)
+    - [Content](#content)
+    - [Media](#media)
+    - [Code](#code)
+8. [Acknowledgements](#acknowledgements)
 
 ## User Experience (UX)
 ### Project Goals
@@ -61,7 +62,6 @@
 - Each page has a responsive navigation bar with the club logo and links the each website page to allow for easy navigation for the user.
 - Each page has a repsonsive footer with social media links. Social media links open in a new browser window. 
 ### Home Page
-
 #### HERO IMAGE
 - The homepage has a photograph of three cyclists overlayed with the club tagline, Together We Ride. 
 - The section aims to portray a strong sense of community and inclusion being core values of the cycling club. 
@@ -72,7 +72,6 @@
 - This section explains how the club operates and uses icons to support the explanation. 
 #### CTA 
 - This section contacts a CTA button that will bring the user to the Join Us page of the website. 
-
 ### About Page
 - The about page is split into 3 section: Our Story, Our People and Missions and Values.
 - The page 
