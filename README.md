@@ -30,6 +30,7 @@ The goal of the We Ride Cycling Club website is to help the club build a communi
     - [Device Testing](#device-testing)
     - [Browser Tesing](#browser-tesing)
     - [Feature Testing](#feature-testing)
+    - [Bugs](#bugs)
 5. [Finished Product](#finished-product)
 6. [Deployment](#deployment)
 7. [Credits](#credits)
