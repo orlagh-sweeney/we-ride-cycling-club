@@ -27,6 +27,7 @@ The goal of We Ride Cycling Club website is to help the club build a community n
     - [Code Validation](#code-validation)
     - [Accessibility](#accessibility)
     - [Tools Testing](#tools-testing)
+    - [Device Testing](#device-testing)
     - [Browser Tesing](#browser-tesing)
     - [Feature Testing](#feature-testing)
 5. [Finished Product](#finished-product)
@@ -204,11 +205,17 @@ The following tool was used to check accessibility of the website:
 ### Tools Testing
 The following tools were used to test the website:
 - [Chrome DevTools](https://developer.chrome.com/docs/devtools/): This was used throughout the project to test responsiveness, to de-bug any issues, and to test changes to HTML and CSS before implementing them in Gitpod. 
-- [Responsive Design Checker](https://www.responsivedesignchecker.com/): This was used to check the responsiveness of the site on different device sizes (mobile/tablet/laptop/desktop). 
-    - This revealed that the form was too short for tablet devices of 800x1280 revealing spacing underneath the footer. Height of the form section was increased to resovle this issue. 
+- [Responsive Design Checker](https://www.responsivedesignchecker.com/): This was used to check the responsiveness of each page of the site on different device sizes including mobile, tablet, laptop and desktop. 
+    - This revealed that the join-us form was too short for tablet devices of 800x1280, there was spacing underneath the footer. The height of the form-section was increased from 900x to 1200px for max-width 950px to resolve this. 
+
+### Device Testing
+The website was manually tested on the following devices with no issues:
+- Samsung Galaxy S10+
+- MacBook Pro 13"
+- Dell 27" Desktop Monitor (P2722H)
 
 ### Browser Tesing
-The website was testing on the followin browsers with no issues:
+The website was tested on the following browsers with no issues:
 - Google Chrome
 - Safari
 - Mozilla Firefox
@@ -224,7 +231,12 @@ The following website features were manually tested:
 - The reset button clears the form. 
 - The hover effect added to buttons and text fields highlights functionality for the user. 
 
+### Bugs
+- Video not playing on deployed site:
+    - After deploying my project the video on about.html did not work. I raised a query in Slack where it was highlighted that I used an absolute filepath rather than a relative filepath. I fixed the filepath and the issue was resolved. 
+
 ## Finished Product
+- The live link to the completed product can be found here: https://orlagh-sweeney.github.io/we-ride-cycling-club/index.html
 
 ## Deployment
 The website was developed in Gitpod. It was then commited and pushed to GitHub. 
@@ -234,8 +246,6 @@ The finished site was then deployed to GitHub pages using the following steps:
 3. On the left handside, under the 'Code and automation' section, click on Pages. 
 4. In the Branch section, locate the dropdown menu and change it from None to Main. 
 5. Click save. The page will refresh with a link to your website. 
-
-The live link can be found here: https://orlagh-sweeney.github.io/we-ride-cycling-club/index.html
 
 ## Credits
 ### Content
