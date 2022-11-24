@@ -63,30 +63,54 @@ The goal of We Ride Cycling Club website is to help the club build a community n
 - The website incorporates a responsive design so it can be used across multiple device sizes. 
 - The website uses a consistnet colour scheme across the site. 
 - Each page has a responsive navigation bar with the club logo and links the each website page to allow for easy navigation for the user.
+<br>
+<image src="assets/readme-files/weride-header.png" width="600px"></image>
 - Each page has a repsonsive footer with social media links. Social media links open in a new browser window. 
+<br>
+<image src="assets/readme-files/weride-footer.png" width="600px"></image>
 ### Home Page
 - Hero Image
     - The homepage has a photograph of three cyclists overlayed with the club tagline, Together We Ride. 
     - The section aims to portray a strong sense of community and inclusion being core values of the cycling club. 
+<br>
+<image src="assets/readme-files/weride-hero-image.png" width="600px"></image>
 - Introduction
     - This page also has a brief introduction explaining that it is a cylcing club for expats where they can join weekly rides. 
     - This section also has a selection of images as a design feature to convery the inclusive, community values. 
+<br>
+<image src="assets/readme-files/weride-introduction.png" width="600px"></image>
 -   How it Works
     - This section explains how the club operates and uses icons to support the explanation. 
+<br>
+<image src="assets/readme-files/weride-howitworks.png" width="600px"></image>
 - CTA button
     - This section contacts a CTA button that will bring the user to the Join Us page of the website. 
+<br>
+<image src="assets/readme-files/weride-ctabutton.png" width="600px"></image>
 ### About Page
 - The about page is split into 3 section: Our Story, Our People and Missions and Values.
+<br>
+<image src="assets/readme-files/weride-about-story.png" width="600px"></image>
+<br>
+<image src="assets/readme-files/weride-about-people.png" width="600px"></image>
+<br>
+<image src="assets/readme-files/weride-about-values.png" width="600px"></image>
 - The page aims to give the user a more indepth look into the cycling club to encourage then to join.
 - The page has a video with a motivational quote underneath. 
+<br>
+<image src="assets/readme-files/weride-about-video.png" width="600px"></image>
 - The page contains a CTA button to bring the user to the Join Us page. 
 ### Join Us Page
 - The Join Us page has a photo over cyclists overlayed with a form.
 - The form has a brief instruction that tells the user to fill in their information to be matched with a Local Leader. 
 - Hover effects have been added to text fields and button to enhance user experience. 
+<br>
+<image src="assets/readme-files/weride-joinusform.png" width="600px"></image>
 ### Contact Page
 - The Contact page has a contact form for users to submit any queries or questions they may have. 
 - The Contact page also has the club contact details should the user prefer to get in touch directly. 
+<br>
+<image src="assets/readme-files/weride-contactpage.png" width="600px"></image>
 ### Future Features 
 - An "Insights" page which would publish weekly blogs from We Ride Cycling Club members, articles on latest cycling trends, and general cycling advice articles. 
 - On the join us form a future feature inclues a pre-populated dropdown menu of cities based on the Country that the user selected. 
@@ -164,7 +188,8 @@ The following tool was used to check accessibility of the website:
 ### Tools Testing
 The following tools were used to test the website:
 - [Chrome DevTools](https://developer.chrome.com/docs/devtools/): This was used throughout the project to test responsiveness, to de-bug any issues, and to test changes to HTML and CSS before implementing them in Gitpod. 
-- [Responsive Design Checker](https://www.responsivedesignchecker.com/): This was used to check the responsiveness of the site on different device sizes (mobile/tablet/laptop/desktop).  
+- [Responsive Design Checker](https://www.responsivedesignchecker.com/): This was used to check the responsiveness of the site on different device sizes (mobile/tablet/laptop/desktop). 
+    - This revealed that the form was too short for tablet devices of 800x1280 revealing spacing underneath the footer. Height of the form section was increased to resovle this issue. 
 
 ### Browser Tesing
 The website was testing on the followin browsers with no issues:
