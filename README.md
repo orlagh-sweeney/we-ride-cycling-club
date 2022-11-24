@@ -43,20 +43,36 @@ The goal of We Ride Cycling Club website is to help the club build a community n
 - Clearly outline how the cycling club works.
 - Provide a registration form for cyclists to join the club.
 - Provide a contact details for users to be able to ask for more information. 
+
 ### User Stories
 - As a user, I want to be able to easily navigate the website to discover more about the cycling club. 
 - As a user, I want to understand how the cylcing club works.
 - As a user, I want to be able to join the cycling club.
 - As a user, I want to be able to find contact information for the cycling club. 
 - As a user, I want to be able to find the cycling club on social media. 
+
 ### Colour Scheme
 - The colour scheme used was teal green with a charcoal grey and white. A green colour was chosen to be representative of being outdoors, with the teal shaed giving a modern, clean feel to the website. 
 <image src="assets/readme-files/we-ride-colour-palette.png" height="300px"></image>
+
 ### Typography
 - Barlow Condensed was used for the logo and headings with sans-serif as the fallback font.
 - Montserrat was used for body/paragraph text with sans-serif as the fallback font.
+
 ### Wireframes
 - [Balsamiq](https://balsamiq.com/) was used to develop wireframes in the planning stage of the website. 
+- index.html
+<br>
+<image src="assets/readme-files/weride-wireframe-index.png" width="600px"></image>
+- about.html
+<br>
+<image src="assets/readme-files/weride-wireframe-about.png" width="600px"></image>
+- join-us.html
+<br>
+<image src="assets/readme-files/weride-wireframe-join.png" width="600px"></image>
+- contact.html
+<br>
+<image src="assets/readme-files/weride-wireframe-contact.png" width="600px"></image>
 
 ## Features
 ### General
