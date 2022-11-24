@@ -448,6 +448,8 @@ select {
     width: 100%;
     color: #fafafa;
     font-family: Montserrat, sans-serif;
+    appearance: none;
+    border-radius: inherit;
 }
 
 .name {
