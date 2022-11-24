@@ -63,30 +63,21 @@ The goal of the We Ride Cycling Club website is to help the club build a communi
 
 ### Wireframes
 - [Balsamiq](https://balsamiq.com/) was used to develop wireframes in the planning stage of the website: 
-    - index.html
-<br>
-<image src="assets/readme-files/weride-wireframe-index.png" width="600px"></image>
-    - about.html
-<br>
-<image src="assets/readme-files/weride-wireframe-about.png" width="600px"></image>
-    - join-us.html
-<br>
-<image src="assets/readme-files/weride-wireframe-join.png" width="600px"></image>
-    - contact.html
-<br>
-<image src="assets/readme-files/weride-wireframe-contact.png" width="600px"></image>
+    - index.html <br> <image src="assets/readme-files/weride-wireframe-index.png" width="600px"></image>
+    - about.html <br> <image src="assets/readme-files/weride-wireframe-about.png" width="600px"></image>
+    - join-us.html <br> <image src="assets/readme-files/weride-wireframe-join.png" width="600px"></image>
+    - contact.html <br ><image src="assets/readme-files/weride-wireframe-contact.png" width="600px"></image>
 
 ## Features
 ### General
 - The website incorporates a responsive design so it can be used across multiple device sizes. 
 - The website uses a consistnet colour scheme across the site. 
-- Each page has a responsive navigation bar with the club logo and links the each website page to allow for easy navigation for the user.
-<br>
+- Each page has a responsive navigation bar with the club logo and links the each website page to allow for easy navigation for the user.<br>
 <image src="assets/readme-files/weride-header.png" width="600px"></image>
-- Each page has a repsonsive footer with social media links. Social media links open in a new browser window. 
-<br>
+- Each page has a repsonsive footer with social media links. Social media links open in a new browser window.<br>
 <image src="assets/readme-files/weride-footer.png" width="600px"></image>
-### Home Page
+
+### Home Page 
 - Hero Image
     - The homepage has a photograph of three cyclists overlayed with the club tagline, Together We Ride. 
     - The section aims to portray a strong sense of community and inclusion. 
@@ -105,6 +96,7 @@ The goal of the We Ride Cycling Club website is to help the club build a communi
     - This section contains a CTA button that will bring the user to the Join Us page of the website. 
 <br>
 <image src="assets/readme-files/weride-ctabutton.png" width="600px"></image>
+
 ### About Page
 - The about page is split into 3 section: Our Story, Our People and Missions and Values.
 <br>
@@ -124,17 +116,18 @@ The goal of the We Ride Cycling Club website is to help the club build a communi
 - Hover effects have been added to text fields and buttons to enhance user experience. 
 <br>
 <image src="assets/readme-files/weride-joinusform.png" width="600px"></image>
+
 ### Contact Page
 - The Contact page has a contact form for users to submit any queries or questions they may have. 
 - The Contact page also has the club contact details should the user prefer to get in touch directly. 
 <br>
 <image src="assets/readme-files/weride-contactpage.png" width="600px"></image>
+
 ### Future Features 
 - An "Insights" page which would publish weekly blogs from We Ride Cycling Club members, articles on latest cycling trends, and general cycling advice articles. 
 - On the join us form a future feature inclues a pre-populated dropdown menu of cities based on the Country that the user selected. 
 
 ## Technologies Used
-
 ### Languages 
 - HTML 
 - CSS 
