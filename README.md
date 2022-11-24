@@ -80,47 +80,31 @@ The goal of the We Ride Cycling Club website is to help the club build a communi
 ### Home Page 
 - Hero Image
     - The homepage has a photograph of three cyclists overlayed with the club tagline, Together We Ride. 
-    - The section aims to portray a strong sense of community and inclusion. 
-<br>
-<image src="assets/readme-files/weride-hero-image.png" width="600px"></image>
+    - The section aims to portray a strong sense of community and inclusion. <br><image src="assets/readme-files/weride-hero-image.png" width="600px"></image>
 - Introduction
     - This page also has a brief introduction explaining that it is a cylcing club for expats where they can join weekly rides. 
-    - This section also has a selection of images as a design feature to convey the inclusive, community values. 
-<br>
-<image src="assets/readme-files/weride-introduction.png" width="600px"></image>
+    - This section also has a selection of images as a design feature to convey the inclusive, community values.  <br><image src="assets/readme-files/weride-introduction.png" width="600px"></image>
 -   How it Works
-    - This section explains how the club operates and uses icons to support the explanation and enhance user experience.
-<br>
-<image src="assets/readme-files/weride-howitworks.png" width="600px"></image>
+    - This section explains how the club operates and uses icons to support the explanation and enhance user experience. <br> <image src="assets/readme-files/weride-howitworks.png" width="600px"></image>
 - CTA button
-    - This section contains a CTA button that will bring the user to the Join Us page of the website. 
-<br>
-<image src="assets/readme-files/weride-ctabutton.png" width="600px"></image>
+    - This section contains a CTA button that will bring the user to the Join Us page of the website.<br><image src="assets/readme-files/weride-ctabutton.png" width="600px"></image>
 
 ### About Page
-- The about page is split into 3 section: Our Story, Our People and Missions and Values.
-<br>
-<image src="assets/readme-files/weride-about-story.png" width="600px"></image>
-<br>
-<image src="assets/readme-files/weride-about-people.png" width="600px"></image>
-<br>
-<image src="assets/readme-files/weride-about-values.png" width="600px"></image>
+- The about page is split into 3 section: Our Story, Our People and Missions and Values. <br> <image src="assets/readme-files/weride-about-story.png" width="600px"></image><br><image src="assets/readme-files/weride-about-people.png" width="600px"><br></image><image src="assets/readme-files/weride-about-values.png" width="600px"></image>
 - The page aims to give the user a more indepth look into the cycling club to encourage then to join.
-- The page has a video with a motivational quote underneath. 
-<br>
+- The page has a video with a motivational quote underneath.<br>
 <image src="assets/readme-files/weride-about-video.png" width="600px"></image>
-- The page contains a CTA button to bring the user to the Join Us page. 
+- The page contains a CTA button to bring the user to the Join Us page.
+
 ### Join Us Page
 - The Join Us page has a photo of cyclists overlayed with a form.
 - The form has brief instructions telling the user to fill in their information to be matched with a Local Leader. 
-- Hover effects have been added to text fields and buttons to enhance user experience. 
-<br>
+- Hover effects have been added to text fields and buttons to enhance user experience.<br>
 <image src="assets/readme-files/weride-joinusform.png" width="600px"></image>
 
 ### Contact Page
 - The Contact page has a contact form for users to submit any queries or questions they may have. 
-- The Contact page also has the club contact details should the user prefer to get in touch directly. 
-<br>
+- The Contact page also has the club contact details should the user prefer to get in touch directly.<br>
 <image src="assets/readme-files/weride-contactpage.png" width="600px"></image>
 
 ### Future Features 
@@ -166,15 +150,9 @@ The following validators were used to test the code:
 - [W3C Markup Validator](https://validator.w3.org/): No errors were reported when passing the final HTML code through the validator. 
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/): No errors were reported when passing the final CSS code through the validator.
 The validators were used throughout the development stage of the website as part of ongoing testing of html and css. Examples of errors and warnings can be found below which were all resolved 
-    - Example 1: CSS Validator gave warnings for font family names and stlying of submit buttons. 
-    <br>
-    <image src="assets/readme-files/css-validator-output-1.png" width="600px"></image>
-    - Example 2: HTML Validator gave syntax warnings for index.html. 
-    <br>
-    <image src="assets/readme-files/html-validator-output-1.png" width="600px"></image>
-    - Example 3: HTML Validator gave syntax warnings and errors for div and form elements on contact.html. 
-    <br>
-    <image src="assets/readme-files/html-validator-output-2.png" width="600px"></image>
+    - Example 1: CSS Validator gave warnings for font family names and stlying of submit buttons. <br> <image src="assets/readme-files/css-validator-output-1.png" width="600px"></image>
+    - Example 2: HTML Validator gave syntax warnings for index.html. <br> <image src="assets/readme-files/html-validator-output-1.png" width="600px"></image>
+    - Example 3: HTML Validator gave syntax warnings and errors for div and form elements on contact.html.<br> <image src="assets/readme-files/html-validator-output-2.png" width="600px"></image>
 
 ### Accessibility
 The following tool was used to check accessibility of the website:
@@ -183,18 +161,10 @@ The following tool was used to check accessibility of the website:
     <br>
     <image src="assets/readme-files/lighthouse-join-us-accessibility.png" width="600px"></image>
 - Lighthouse Reports:
-    - index.html
-    <br>
-    <image src="assets/readme-files/lighthouse-report-index.png" width="600px"></image>
-    - about.html
-    <br>
-    <image src="assets/readme-files/lighthouse-report-about.png" width="600px"></image>
-    - join-us.html
-    <br>
-    <image src="assets/readme-files/lighthouse-report-join.png" width="600px"></image>
-    - contact.html
-    <br>
-    <image src="assets/readme-files/lighthouse-report-contact.png" width="600px"></image>
+    - index.html <br> <image src="assets/readme-files/lighthouse-report-index.png" width="600px"></image>
+    - about.html <br> <image src="assets/readme-files/lighthouse-report-about.png" width="600px"></image>
+    - join-us.html <br> <image src="assets/readme-files/lighthouse-report-join.png" width="600px"></image>
+    - contact.html <br> <image src="assets/readme-files/lighthouse-report-contact.png" width="600px"></image>
 
 ### Tools Testing
 The following tools were used to test the website:
@@ -211,9 +181,7 @@ The website was manually tested on the following devices with no issues:
 ### Browser Tesing
 The website was tested on the following browsers with no issues except for Safari as indicated below:
 - Google Chrome
-- Safari: this browser altered the styling of the Country dropdown menu. I updated the styling of the select element in CSS to appearance:none and border-radius:inherit. 
-<br>
-<image src="assets/readme-files/weride-joinusform-safari.png" width="300px"></image>
+- Safari: this browser altered the styling of the Country dropdown menu. I updated the styling of the select element in CSS to appearance:none and border-radius:inherit. <br> <image src="assets/readme-files/weride-joinusform-safari.png" width="300px"></image>
 - Mozilla Firefox
 - Microsoft Edge
 
