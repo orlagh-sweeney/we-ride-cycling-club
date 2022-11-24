@@ -216,9 +216,11 @@ The website was manually tested on the following devices with no issues:
 - Dell 27" Desktop Monitor (P2722H)
 
 ### Browser Tesing
-The website was tested on the following browsers with no issues:
+The website was tested on the following browsers with no issues except for Safari as indicated below:
 - Google Chrome
-- Safari
+- Safari: this browser altered the styling of the Country dropdown menu. I updated the styling of the select element in CSS to appearance:none and border-radius:inherit. 
+<br>
+<image src="assets/readme-files/weride-joinusform-safari.png" width="300px"></image>
 - Mozilla Firefox
 - Microsoft Edge
 
