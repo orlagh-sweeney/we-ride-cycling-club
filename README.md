@@ -27,6 +27,7 @@ The goal of We Ride Cycling Club website is to help the club build a community n
     - [Code Validation](#code-validation)
     - [Accessibility](#accessibility)
     - [Tools Testing](#tools-testing)
+    - [Browser Tesing](#browser-tesing)
     - [Feature Testing](#feature-testing)
 5. [Finished Product](#finished-product)
 6. [Deployment](#deployment)
@@ -96,19 +97,19 @@ The goal of We Ride Cycling Club website is to help the club build a community n
 - HTML 
 - CSS 
 ### Frameworks, Libraries and Programmes 
-- Balsamiq: this was used to created wireframes in the planning stage of the project. 
-- Fontpair: fontpair was used to find fonts that compliment each other. 
-- Google Fonts: this was used to import fonts into the style.css file.
-- Coolers: to generate a colour pallete for the website. 
-- Font Awesome: this was used to add icons to pages to enhance user experience. 
-- Pexals: this was used to find images and videos for the project. 
-- Gitpod: this was used to write, commit and to push the code to Github. 
-- Github: this was used to host and deploy the finished project. 
-- Chrome DevTools: this was used throughout the project to check responsiveness and debug any issues. 
-- W3C Markup Validator: this was used to throughout the project to validate HTML code. 
-- W3C CSS Validator: this was used throughout the proejct to validate CSS code. 
-- Responsive Design Checker: this was used to check responsiveness on various device sizes. 
-- Am I Respsonsive?: this was used tp create an image to show how the site looks on different device sizes. 
+- [Balsamiq](https://balsamiq.com/): this was used to created wireframes in the planning stage of the project. 
+- [Fontpair](https://www.fontpair.co/): fontpair was used to find fonts that compliment each other. 
+- [Google Fonts](https://fonts.google.com/): this was used to import fonts into the style.css file.
+- [Coolers](https://coolors.co/): to create a colour pallete for the website. 
+- [Font Awesome](https://fontawesome.com/): this was used to add icons to pages to enhance user experience. 
+- [Pexals](https://www.pexels.com/): this was used to find images and videos for the project. 
+- [Gitpod](https://www.gitpod.io/): this was used to write, commit and to push the code to Github. 
+- [Github](https://github.com/): this was used to host and deploy the finished project. 
+- [Chrome DevTools](https://developer.chrome.com/docs/devtools/): this was used throughout the project to check responsiveness and debug any issues. 
+- [W3C Markup Validator](https://validator.w3.org/): this was used to throughout the project to validate HTML code. 
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/): this was used throughout the proejct to validate CSS code. 
+- [Responsive Design Checker](https://www.responsivedesignchecker.com/): this was used to check responsiveness on various device sizes. 
+- [Am I Respsonsive?](https://ui.dev/amiresponsive): this was used tp create an image to show how the site looks on different device sizes. 
 
 ## Testing
 
@@ -165,6 +166,13 @@ The following tools were used to test the website:
 - [Chrome DevTools](https://developer.chrome.com/docs/devtools/): This was used throughout the project to test responsiveness, to de-bug any issues, and to test changes to HTML and CSS before implementing them in Gitpod. 
 - [Responsive Design Checker](https://www.responsivedesignchecker.com/): This was used to check the responsiveness of the site on different device sizes (mobile/tablet/laptop/desktop).  
 
+### Browser Tesing
+The website was testing on the followin browsers with no issues:
+- Google Chrome
+- Safari
+- Mozilla Firefox
+- Microsoft Edfge
+
 ### Feature Testing
 The following website features were manually tested:
 - Clicking on the logo will bring the user to the home page.
@@ -181,8 +189,8 @@ The following website features were manually tested:
 The website was developed in Gitpod. It was then commited and pushed to GitHub. 
 The finished site was then deployed to GitHub pages using the following steps: 
 1. Open GitHub and click on the We Ride Cycling Club repository. 
-2. Once inside the repsitory, locate and click on the settings tab. 
-3. On the left handside under the 'Code and automation' section, click on Pages. 
+2. Once inside the repository, locate and click on the Settings tab. 
+3. On the left handside, under the 'Code and automation' section, click on Pages. 
 4. In the Branch section, locate the dropdown menu and change it from None to Main. 
 5. Click save. The page will refresh with a link to your website. 
 
@@ -204,7 +212,7 @@ The live link can be found here: https://orlagh-sweeney.github.io/we-ride-cyclin
     - Join Us background image: "Aerial Shot of People Riding Bicycle on Road Between Trees" by Pavel Danilyuk
 - Icons were taken from [Font Awesome](https://fontawesome.com/). 
 ### Code
-- [Stackoverflow](https://stackoverflow.com/) and [W3Schools](https://www.w3schools.com/) were used throughout the development to educate myself and to seek help on the following features: 
+- [Stackoverflow](https://stackoverflow.com/) and [W3Schools](https://www.w3schools.com/) were used throughout the development to educate myself and to seek help adn clarification features. In particular I used the following resources in my proejct: 
 - I used W3Schools to create the dropdown menu feature on the Join Us. I used the solution on the [HTML Form Elements](https://www.w3schools.com/html/html_form_elements.asp) page. 
 - I used Stackoverflow to center the form on the Join Us page, I used the solution shared by [Rhythm Shandlya](https://stackoverflow.com/questions/8097744/how-do-i-center-this-form-in-css).   
 - I used W3Schools to find out how to add rounded corner to buttons. I used the solution from the [CSS Rounded Corners](https://www.w3schools.com/css/css3_borders.asp).
