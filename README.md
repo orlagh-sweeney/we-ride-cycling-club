@@ -1,5 +1,5 @@
 # We Ride Cycling Club 
-<image src="assets/readme-files/we-ride-devices-mockup.png" width="900px" text-align="center"></image>
+<image src="assets/readme-files/we-ride-devices-mockup.png" width="600px" text-align="center"></image>
 
 We Ride Cycling Club is a fictional cycling community for expats in Europe. We Ride Cycling Club matches expats with "Local Leaders" in the city they are moving to. The cyclists can join the group rides lead by the Local Leaders, meet fellow expats and get access to a database of cycling routes to upload to their Garmin to explore solo. 
 
@@ -44,12 +44,13 @@ The goal of We Ride Cycling Club website is to help the club build a community n
 - Provide a contact details for users to be able to ask for more information. 
 ### User Stories
 - As a user, I want to be able to easily navigate the website to discover more about the cycling club. 
+- As a user, I want to understand how the cylcing club works.
 - As a user, I want to be able to join the cycling club.
 - As a user, I want to be able to find contact information for the cycling club. 
 - As a user, I want to be able to find the cycling club on social media. 
 ### Colour Scheme
-The colour scheme used was a modern teal green with a charcoal grey and white. A green shade was chosen to be representative of being outdoors, with the teal colour giving a modern, clean feel to the website. 
-<image src="assets/readme-files/we-ride-colour-palette.png" width="900px"></image>
+- The colour scheme used was teal green with a charcoal grey and white. A green colour was chosen to be representative of being outdoors, with the teal shaed giving a modern, clean feel to the website. 
+<image src="assets/readme-files/we-ride-colour-palette.png" height="300px"></image>
 ### Typography
 - Barlow Condensed was used for the logo and headings with sans-serif as the fallback font.
 - Montserrat was used for body/paragraph text with sans-serif as the fallback font.
@@ -63,19 +64,21 @@ The colour scheme used was a modern teal green with a charcoal grey and white. A
 - Each page has a responsive navigation bar with the club logo and links the each website page to allow for easy navigation for the user.
 - Each page has a repsonsive footer with social media links. Social media links open in a new browser window. 
 ### Home Page
-#### HERO IMAGE
-- The homepage has a photograph of three cyclists overlayed with the club tagline, Together We Ride. 
-- The section aims to portray a strong sense of community and inclusion being core values of the cycling club. 
-#### INTRODUCTION
-- This page also has a brief introduction explaining that it is a cylcing club for expats where they can join weekly rides. 
-- This section also has a selection of images as a design feature to convery the inclusive, community values. 
-#### HOW IT WORKS
-- This section explains how the club operates and uses icons to support the explanation. 
-#### CTA 
-- This section contacts a CTA button that will bring the user to the Join Us page of the website. 
+- Hero Image
+    - The homepage has a photograph of three cyclists overlayed with the club tagline, Together We Ride. 
+    - The section aims to portray a strong sense of community and inclusion being core values of the cycling club. 
+- Introduction
+    - This page also has a brief introduction explaining that it is a cylcing club for expats where they can join weekly rides. 
+    - This section also has a selection of images as a design feature to convery the inclusive, community values. 
+-   How it Works
+    - This section explains how the club operates and uses icons to support the explanation. 
+- CTA button
+    - This section contacts a CTA button that will bring the user to the Join Us page of the website. 
 ### About Page
 - The about page is split into 3 section: Our Story, Our People and Missions and Values.
-- The page 
+- The page aims to give the user a more indepth look into the cycling club to encourage then to join.
+- The page has a video with a motivational quote underneath. 
+- The page contains a CTA button to bring the user to the Join Us page. 
 ### Join Us Page
 - The Join Us page has a photo over cyclists overlayed with a form.
 - The form has a brief instruction that tells the user to fill in their information to be matched with a Local Leader. 
@@ -84,8 +87,8 @@ The colour scheme used was a modern teal green with a charcoal grey and white. A
 - The Contact page has a contact form for users to submit any queries or questions they may have. 
 - The Contact page also has the club contact details should the user prefer to get in touch directly. 
 ### Future Features 
-- An "Insights" page which would host weekly blogs from We Ride Cycling Club members, articles on cycling trends, and general cycling advice articles. 
-- Pre-populated dropdown menu of cities on the Join Us form based on the Country that the user selected. 
+- An "Insights" page which would publish weekly blogs from We Ride Cycling Club members, articles on latest cycling trends, and general cycling advice articles. 
+- On the join us form a future feature inclues a pre-populated dropdown menu of cities based on the Country that the user selected. 
 
 ## Technologies Used
 
@@ -113,27 +116,54 @@ The colour scheme used was a modern teal green with a charcoal grey and white. A
 - As a user, I want to be able to easily navigate the website to discover more about the cycling club. 
     - The website menu bar allows the user to navigate through the pages of the website.
     - The website pages have clearly identified sections for the user to be able to scan and digest the information.
+- As a user, I want to understand how the cylcing club works.
+    - The website clearly explains how to club work from registering to being matched up with a local leader. 
 - As a user, I want to be able to join the cycling club.
     - The website had a join us registration form.
 - As a user, I want to be able to find contact information for the cycling club. 
     - The website has a dedicated contact page where a user can submit a request using the contact form or directly contact the cycling club using the information provided.
 - As a user, I want to be able to find the cycling club on social media. 
     - The website has links to the clubs social media pages on the footer of each page. 
+
 ### Code Validation
 The following validators were used to test the code:
-- [W3C Markup Validator](https://validator.w3.org/): No errors were returned when passing the final HTML code through the validator. 
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/): No errors were returned when passing the final CSS code through the validator.
-The validators were used throughout the development stage of the website. Examples of errors can be found below: 
+- [W3C Markup Validator](https://validator.w3.org/): No errors were reported when passing the final HTML code through the validator. 
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/): No errors were reported when passing the final CSS code through the validator.
+The validators were used throughout the development stage of the website as part of ongoing testing of html. Examples of errors and warnings can be found below which were all resolved 
+    - Example 1: CSS Validator
+    <br>
+    <image src="assets/readme-files/css-validator-output-1.png" width="600px"></image>
+    - Example 2: HTML Validator index.html
+    <br>
+    <image src="assets/readme-files/html-validator-output-1.png" width="600px"></image>
+    - Example 3: HTML Validator contact.html
+    <br>
+    <image src="assets/readme-files/html-validator-output-2.png" width="600px"></image>
 
 ### Accessibility
 The following tool was used to check accessibility of the website:
 - [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/): was used to check accessibility the score of each site page and to see if there were issues. 
-    - This tool highlighted an issue with radio button labels on the Join Us page. The wrong "for" value had been assigned to the 80-100km radio button which impacted the accessbility score. After fixing this issue the accessibility score increased from 90 to 100.
-- Lighthouse reports:
+    - This tool highlighted an issue with radio button labels on the Join Us page. The wrong "for" value had been assigned to the 80-100km radio button which impacted the accessbility score. After fixing this issue the accessibility score increased from 90 to 100. Initial Lighthouse report: 
+    <br>
+    <image src="assets/readme-files/lighthouse-join-us-accessibility.png" width="600px"></image>
+- Lighthouse Reports:
+    - index.html
+    <br>
+    <image src="assets/readme-files/lighthouse-report-index.png" width="600px"></image>
+    - about.html
+    <br>
+    <image src="assets/readme-files/lighthouse-report-about.png" width="600px"></image>
+    - join-us.html
+    <br>
+    <image src="assets/readme-files/lighthouse-report-join.png" width="600px"></image>
+    - contact.html
+    <br>
+    <image src="assets/readme-files/lighthouse-report-contact.png" width="600px"></image>
+
 ### Tools Testing
 The following tools were used to test the website:
 - [Chrome DevTools](https://developer.chrome.com/docs/devtools/): This was used throughout the project to test responsiveness, to de-bug any issues, and to test changes to HTML and CSS before implementing them in Gitpod. 
-- [Responsive Design Checker](https://www.responsivedesignchecker.com/): This was used to check the responsiveness of the site on different device sizes.  
+- [Responsive Design Checker](https://www.responsivedesignchecker.com/): This was used to check the responsiveness of the site on different device sizes (mobile/tablet/laptop/desktop).  
 
 ### Feature Testing
 The following website features were manually tested:
