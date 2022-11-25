@@ -391,7 +391,7 @@ footer {
     background-color: #4e4e4e;
     background-size: cover;
     background-position: center;
-    height: 900px;
+    height: 975px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -505,12 +505,12 @@ select {
 /* style contact section: contact.html */
 
 #contact-section {
-    min-height: 600px;
+    height: 900px;
     width: 100%;
     margin-left: 30px;
     margin-right: 30px;
     overflow: hidden;
-    padding-top: 40px;
+    padding-top: 75px;
     text-align: center;
 }
 
@@ -551,12 +551,12 @@ select {
 .contact-block {
     vertical-align: top;
     display: inline-block;
-    margin-top: 30px;
+    margin-top: 75px;
     text-align: left;
 }
 
 #contact-form {
-    width: 900px;
+    width: 750px;
     height: 600px;
 }
 
