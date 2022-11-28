@@ -796,11 +796,15 @@ div label[for="textarea"] {
 }
 
 #introduction {
-    width: 80%;
-    height: auto;
+    width: 275px;
+    height: 300px;
     margin: 0 auto;
     margin-bottom: 2px;
     padding-top: 10px;     
+}
+
+#introduction > h2 {
+    margin-top: 15%;
 }
 
 #introduction > p {
@@ -813,7 +817,7 @@ div label[for="textarea"] {
 }
 
 #left-intro, #center-intro, #right-intro {
-    height: 25%;
+    height: 275px;
     margin: 0 auto;
     width: inherit;
     margin-bottom: 10px;
