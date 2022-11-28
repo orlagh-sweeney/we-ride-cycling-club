@@ -1,9 +1,9 @@
 # We Ride Cycling Club 
 <image src="assets/readme-files/we-ride-devices-mockup.png" width="600px" text-align="center"></image>
 
-We Ride Cycling Club is a fictional cycling community for expats in Europe. We Ride Cycling Club matches expats with "Local Leaders" in the city they are moving to. The cyclists can join then group rides lead by the Local Leaders, meet fellow expats and get access to a database of cycling routes to upload to their Garmin to explore solo. 
+We Ride Cycling Club is a fictional cycling community for expats in Europe. We Ride Cycling Club matches expats with "Local Leaders" in the city they are moving to. The cyclists can join them group rides lead by the Local Leaders, meet fellow expats and get access to a database of cycling routes to upload to their Garmin to explore solo. 
 
-The goal of the We Ride Cycling Club website is to help the club build a community network of cyclists across Europe, help expats discover their new home with the guidance of local cyclists, educate users about the cycling club, and provide an easy sign up registration process for cyclists. We Rice Cycling Club wants to make it easy and less daunting for cyclists to discover their new home.
+The goal of the We Ride Cycling Club website is to help the club build a community network of cyclists across Europe, help expats discover their new home with the guidance of local cyclists, educate users about the cycling club, and provide an easy sign up registration process for cyclists. We Ride Cycling Club wants to make it easy and less daunting for cyclists to discover their new home.
 
 ## Table of Contents
 1. [User Experience](#user-experience-ux)
@@ -28,7 +28,7 @@ The goal of the We Ride Cycling Club website is to help the club build a communi
     - [Accessibility](#accessibility)
     - [Tools Testing](#tools-testing)
     - [Device Testing](#device-testing)
-    - [Browser Tesing](#browser-tesing)
+    - [Browser Testing](#browser-tesing)
     - [Feature Testing](#feature-testing)
     - [Bugs](#bugs)
 5. [Finished Product](#finished-product)
@@ -44,7 +44,7 @@ The goal of the We Ride Cycling Club website is to help the club build a communi
 - Build a clean, modern website for a cycling club which conveys a strong sense of community.  
 - Clearly outline how the cycling club works.
 - Provide a registration form for cyclists to join the club.
-- Provide a contact details for users to be able to ask for more information. 
+- Provide a contact form and contact details for users to be able to ask for more information. 
 
 ### User Stories
 - As a user, I want to be able to easily navigate the website to discover more about the cycling club. 
@@ -54,8 +54,7 @@ The goal of the We Ride Cycling Club website is to help the club build a communi
 - As a user, I want to be able to find the cycling club on social media. 
 
 ### Colour Scheme
-- The colour scheme used was teal green, charcoal grey and white. A green colour was chosen to be representative of being outdoors, with the teal shade giving a modern, clean feel to the website. 
-<image src="assets/readme-files/we-ride-colour-palette.png" height="300px"></image>
+- The colour scheme used was teal green, charcoal grey and white. A green colour was chosen to be representative of being outdoors, with the teal shade giving a modern, clean feel to the website. <br> <image src="assets/readme-files/we-ride-colour-palette.png" height="300px"></image>
 
 ### Typography
 - Barlow Condensed was used for the logo and headings with sans-serif as the fallback font.
@@ -71,8 +70,8 @@ The goal of the We Ride Cycling Club website is to help the club build a communi
 ## Features
 ### General
 - The website incorporates a responsive design so it can be used across multiple device sizes. 
-- The website uses a consistnet colour scheme across the site. 
-- Each page has a responsive navigation bar with the club logo and links the each website page to allow for easy navigation for the user.<br>
+- The website uses a consistent colour scheme across the site. 
+- Each page has a responsive navigation bar with the club logo and links to each website page to allow for easy navigation for the user.<br>
 <image src="assets/readme-files/weride-header.png" width="600px"></image>
 - Each page has a repsonsive footer with social media links. Social media links open in a new browser window.<br>
 <image src="assets/readme-files/weride-footer.png" width="600px"></image>
@@ -90,7 +89,7 @@ The goal of the We Ride Cycling Club website is to help the club build a communi
     - This section contains a CTA button that will bring the user to the Join Us page of the website.<br><image src="assets/readme-files/weride-ctabutton.png" width="600px"></image>
 
 ### About Page
-- The about page is split into 3 section: Our Story, Our People and Missions and Values. <br> <image src="assets/readme-files/weride-about-story.png" width="600px"></image><br><image src="assets/readme-files/weride-about-people.png" width="600px"><br></image><image src="assets/readme-files/weride-about-values.png" width="600px"></image>
+- The about page is split into 3 sections: Our Story, Our People and Missions and Values. <br> <image src="assets/readme-files/weride-about-story.png" width="600px"></image><br><image src="assets/readme-files/weride-about-people.png" width="600px"><br></image><image src="assets/readme-files/weride-about-values.png" width="600px"></image>
 - The page aims to give the user a more indepth look into the cycling club to encourage then to join.
 - The page has a video with a motivational quote underneath.<br>
 <image src="assets/readme-files/weride-about-video.png" width="600px"></image>
@@ -109,17 +108,17 @@ The goal of the We Ride Cycling Club website is to help the club build a communi
 
 ### Future Features 
 - An "Insights" page which would publish weekly blogs from We Ride Cycling Club members, articles on latest cycling trends, and general cycling advice articles. 
-- On the join us form a future feature inclues a pre-populated dropdown menu of cities based on the Country that the user selected. 
+- On the Join Us form a future feature includes a pre-populated dropdown menu of cities based on the Country that the user selected. 
 
 ## Technologies Used
 ### Languages 
 - HTML 
 - CSS 
 ### Frameworks, Libraries and Programmes 
-- [Balsamiq](https://balsamiq.com/): this was used to created wireframes in the planning stage of the project. 
+- [Balsamiq](https://balsamiq.com/): this was used to create wireframes in the planning stage of the project. 
 - [Fontpair](https://www.fontpair.co/): this was used to find fonts that compliment each other. 
 - [Google Fonts](https://fonts.google.com/): this was used to import fonts into the style.css file.
-- [Coolers](https://coolors.co/): to create a colour pallete for the website. 
+- [Coolers](https://coolors.co/): this was used to create a colour pallete for the website. 
 - [Font Awesome](https://fontawesome.com/): this was used to add icons to pages to enhance user experience. 
 - [Pexals](https://www.pexels.com/): this was used to find images and videos for the project. 
 - [Gitpod](https://www.gitpod.io/): this was used to write, commit and to push the code to Github. 
@@ -150,14 +149,14 @@ The following validators were used to test the code:
 - [W3C Markup Validator](https://validator.w3.org/): No errors were reported when passing the final HTML code through the validator. 
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/): No errors were reported when passing the final CSS code through the validator.
 The validators were used throughout the development stage of the website as part of ongoing testing of html and css. Examples of errors and warnings can be found below which were all resolved 
-    - Example 1: CSS Validator gave warnings for font family names and stlying of submit buttons. <br> <image src="assets/readme-files/css-validator-output-1.png" width="600px"></image>
+    - Example 1: CSS Validator gave warnings for font family names and styling of submit buttons. <br> <image src="assets/readme-files/css-validator-output-1.png" width="600px"></image>
     - Example 2: HTML Validator gave syntax warnings for index.html. <br> <image src="assets/readme-files/html-validator-output-1.png" width="600px"></image>
     - Example 3: HTML Validator gave syntax warnings and errors for div and form elements on contact.html.<br> <image src="assets/readme-files/html-validator-output-2.png" width="600px"></image>
 
 ### Accessibility
 The following tool was used to check accessibility of the website:
 - [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/): was used to check the accessibility score of each site page and to see if there were issues. 
-    - This tool highlighted an issue with radio button labels on the Join Us page. The wrong "for" value had been assigned to the 80-100km radio button which impacted the accessbility score. After fixing this issue the accessibility score increased from 90 to 100. Initial Lighthouse report: showing a score of 90: 
+    - This tool highlighted an issue with radio button labels on the Join Us page. The wrong "for" value had been assigned to the 80-100km radio button which impacted the accessbility score. After fixing this issue the accessibility score increased from 90 to 100. Initial Lighthouse report below shows the score of 90: 
     <br>
     <image src="assets/readme-files/lighthouse-join-us-accessibility.png" width="600px"></image>
 - Lighthouse Reports:
@@ -171,6 +170,7 @@ The following tools were used to test the website:
 - [Chrome DevTools](https://developer.chrome.com/docs/devtools/): This was used throughout the project to test responsiveness, to de-bug any issues, and to test changes to HTML and CSS before implementing them in Gitpod. 
 - [Responsive Design Checker](https://www.responsivedesignchecker.com/): This was used to check the responsiveness of each page of the site on different device sizes including mobile, tablet, laptop and desktop. 
     - This revealed that the join-us form was too short for tablet devices of 800x1280, there was spacing underneath the footer. The height of the form-section was increased from 900x to 1200px for max-width 950px to resolve this. 
+    - This is also revealed that the contact.html page was too short for large desktop screens with a height of 1000px-1200px. The height of the contact section was adjusted to resolve this display issue.  
 
 ### Device Testing
 The website was manually tested on the following devices with no issues:
@@ -196,7 +196,7 @@ The following website features were manually tested:
 - The hover effect added to buttons and text fields work as expected. 
 
 ### Bugs
-- The video did not work on the deployed site:
+- The video on about.html did not work initially on the deployed site:
     - After deploying my project the video on about.html did not work. I raised a query in Slack where it was highlighted that I used an absolute filepath rather than a relative filepath. I fixed the filepath and the issue was resolved. 
 
 ## Finished Product
@@ -209,7 +209,7 @@ The finished site was then deployed to GitHub pages using the following steps:
 2. Once inside the repository, locate and click on the Settings tab. 
 3. On the left handside, under the 'Code and automation' section, click on Pages. 
 4. In the Branch section, locate the dropdown menu and change it from None to Main. 
-5. Click save. The page will refresh with a link to your website. 
+5. Click save. The page will refresh with a link to the website. 
 
 ## Credits
 ### Content
