@@ -1,7 +1,7 @@
 # We Ride Cycling Club 
 <image src="assets/readme-files/we-ride-devices-mockup.png" width="600px" text-align="center"></image>
 
-We Ride Cycling Club is a fictional cycling community for expats in Europe. We Ride Cycling Club matches expats with "Local Leaders" in the city they are moving to. The cyclists can join them group rides lead by the Local Leaders, meet fellow expats and get access to a database of cycling routes to upload to their Garmin to explore solo. 
+We Ride Cycling Club is a fictional cycling community for expats in Europe. We Ride Cycling Club matches expats with "Local Leaders" in the city they are moving to. The cyclists can join group rides lead by the Local Leaders, meet fellow expats and get access to a database of cycling routes to upload to their Garmin to explore solo. 
 
 The goal of the We Ride Cycling Club website is to help the club build a community network of cyclists across Europe, help expats discover their new home with the guidance of local cyclists, educate users about the cycling club, and provide an easy sign up registration process for cyclists. We Ride Cycling Club wants to make it easy and less daunting for cyclists to discover their new home.
 
@@ -71,7 +71,7 @@ The goal of the We Ride Cycling Club website is to help the club build a communi
 ### General
 - The website incorporates a responsive design so it can be used across multiple device sizes. 
 - The website uses a consistent colour scheme across the site. 
-- Each page has a responsive navigation bar with the club logo and links to each website page to allow for easy navigation for the user.<br>
+- Each page has a responsive navigation bar containing the club logo and links to each website page to allow for easy navigation for the user.<br>
 <image src="assets/readme-files/weride-header.png" width="600px"></image>
 - Each page has a repsonsive footer with social media links. Social media links open in a new browser window.<br>
 <image src="assets/readme-files/weride-footer.png" width="600px"></image>
