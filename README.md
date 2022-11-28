@@ -1,9 +1,11 @@
 # We Ride Cycling Club 
-<image src="assets/readme-files/we-ride-devices-mockup.png" width="600px" text-align="center"></image>
+<image src="assets/readme-files/we-ride-devices-mockup.png" width="100%" text-align="center"></image>
 
 We Ride Cycling Club is a fictional cycling community for expats in Europe. We Ride Cycling Club matches expats with "Local Leaders" in the city they are moving to. The cyclists can join group rides lead by the Local Leaders, meet fellow expats and get access to a database of cycling routes to upload to their Garmin to explore solo. 
 
 The goal of the We Ride Cycling Club website is to help the club build a community network of cyclists across Europe, help expats discover their new home with the guidance of local cyclists, educate users about the cycling club, and provide an easy sign up registration process for cyclists. We Ride Cycling Club wants to make it easy and less daunting for cyclists to discover their new home.
+
+The completed product can be viewed here: https://orlagh-sweeney.github.io/we-ride-cycling-club/index.html
 
 ## Table of Contents
 1. [User Experience](#user-experience-ux)
@@ -147,8 +149,8 @@ The goal of the We Ride Cycling Club website is to help the club build a communi
 ### Code Validation
 The following validators were used to test the code:
 - [W3C Markup Validator](https://validator.w3.org/): No errors were reported when passing the final HTML code through the validator. 
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/): No errors were reported when passing the final CSS code through the validator.
-The validators were used throughout the development stage of the website as part of ongoing testing of html and css. Examples of errors and warnings can be found below which were all resolved 
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/): No errors were reported when passing the final CSS code through the validator. <br>
+The validators were used throughout the development stage of the website as part of ongoing testing of html and css. Examples of errors and warnings can be found below which were all resolved:
     - Example 1: CSS Validator gave warnings for font family names and styling of submit buttons. <br> <image src="assets/readme-files/css-validator-output-1.png" width="600px"></image>
     - Example 2: HTML Validator gave syntax warnings for index.html. <br> <image src="assets/readme-files/html-validator-output-1.png" width="600px"></image>
     - Example 3: HTML Validator gave syntax warnings and errors for div and form elements on contact.html.<br> <image src="assets/readme-files/html-validator-output-2.png" width="600px"></image>
@@ -181,7 +183,7 @@ The website was manually tested on the following devices with no issues:
 ### Browser Tesing
 The website was tested on the following browsers with no issues except for Safari as indicated below:
 - Google Chrome
-- Safari: this browser altered the styling of the Country dropdown menu. I updated the styling of the select element in CSS to appearance:none and border-radius:inherit. <br> <image src="assets/readme-files/weride-joinusform-safari.png" width="300px"></image>
+- Safari: this browser altered the styling of the Country dropdown menu. To fix this I updated the styling of the select element in CSS to appearance:none and border-radius:inherit. <br> <image src="assets/readme-files/weride-joinusform-safari.png" width="300px"></image>
 - Mozilla Firefox
 - Microsoft Edge
 
@@ -228,9 +230,9 @@ The finished site was then deployed to GitHub pages using the following steps:
 - Icons were taken from [Font Awesome](https://fontawesome.com/). 
 ### Code
 - [Stackoverflow](https://stackoverflow.com/) and [W3Schools](https://www.w3schools.com/) were used throughout the development to educate myself and to seek help and clarification features. In particular I used the following resources in my project: 
-- I used W3Schools to create the dropdown menu feature on the Join Us. I used the solution on the [HTML Form Elements](https://www.w3schools.com/html/html_form_elements.asp) page. 
-- I used Stackoverflow to help center the form on the Join Us page, I used the solution shared by [Rhythm Shandlya](https://stackoverflow.com/questions/8097744/how-do-i-center-this-form-in-css).   
-- I used W3Schools to find out how to add rounded corner to form buttons. I used the solution from the [CSS Rounded Corners](https://www.w3schools.com/css/css3_borders.asp).
+    - I used W3Schools to create the dropdown menu feature on the Join Us. I used the solution on the [HTML Form Elements](https://www.w3schools.com/html/html_form_elements.asp) page. 
+    - I used Stackoverflow to help center the form on the Join Us page, I used the solution shared by [Rhythm Shandlya](https://stackoverflow.com/questions/8097744/how-do-i-center-this-form-in-css).   
+    - I used W3Schools to find out how to add rounded corner to form buttons. I used the solution from the [CSS Rounded Corners](https://www.w3schools.com/css/css3_borders.asp).
 ## Acknowledgements
 - Thank you to my mentor Marcel for his feedback and suggestions at each stage of the project.
 - Thank you to Code Institute for providing me with the tools and skills to complete this project. 
